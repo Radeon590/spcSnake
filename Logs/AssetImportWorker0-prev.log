@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50785
+51117
 Successfully changed project path to: /Users/a123/Desktop/Unity/Projects/spcSnake
 /Users/a123/Desktop/Unity/Projects/spcSnake
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/a123/Desktop/Unity/Projects/spcSnak
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -65,41 +65,42 @@ Metal devices available: 1
 0: Apple M1 (high power)
 Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
 Initialize mono
 Mono path[0] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56782
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000821 seconds.
+Registered in 0.000646 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 101.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.447 seconds
+- Completed reload, in  0.452 seconds
 Domain Reload Profiling:
-	ReloadAssembly (447ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (453ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (327ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (67ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (318ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (207ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (97ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (78ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -107,37 +108,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004432 seconds.
+Registered in 0.006334 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.546 seconds
+- Completed reload, in  1.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1547ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (1388ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (1420ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (1023ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1062ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (97ms)
 				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (794ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (831ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -149,10 +150,10 @@ Launching external process: /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.a
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5354 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.5 MB). Loaded Objects now: 5786.
-Memory consumption went from 337.2 MB to 335.7 MB.
-Total: 3.328709 ms (FindLiveObjects: 0.226375 ms CreateObjectMapping: 0.074167 ms MarkObjects: 2.600000 ms  DeleteObjects: 0.427417 ms)
+Unloading 5355 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (1.5 MB). Loaded Objects now: 5787.
+Memory consumption went from 337.3 MB to 335.7 MB.
+Total: 3.395000 ms (FindLiveObjects: 0.198292 ms CreateObjectMapping: 0.071375 ms MarkObjects: 2.721625 ms  DeleteObjects: 0.402875 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,193 +167,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13136.692047 seconds.
-  path: Assets/MyGame/Sprites/Characters/Agent/mc.png
-  artifactKey: Guid(af2d9db46629147f4bb8168a172d157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters/Agent/mc.png using Guid(af2d9db46629147f4bb8168a172d157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1ae7a85cd23993755bffac3f69ea3a') in 0.153166 seconds 
+  Time since last request: 17585.793532 seconds.
+  path: Assets/MyGame/Sprites/Characters/Agent/mc_pn.png
+  artifactKey: Guid(913b52e57665b4b9a9adb76ceee175b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/Characters/Agent/mc_pn.png using Guid(913b52e57665b4b9a9adb76ceee175b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3d4e5932fdff16eed81a1863cad82f') in 0.122981 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.736318 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding
-  artifactKey: Guid(53a7cd1dd196946a6b32a438e81dfb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding using Guid(53a7cd1dd196946a6b32a438e81dfb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54438471f4c150ccfe3e7eadb175eb6') in 0.001287 seconds 
+  Time since last request: 0.000069 seconds.
+  path: Assets/MyGame/Sprites/Characters/Agent/mc_bn.png
+  artifactKey: Guid(4d29f20ed69be47e7aec2ab3bcf31437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/Characters/Agent/mc_bn.png using Guid(4d29f20ed69be47e7aec2ab3bcf31437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77af3356bc72a52fd96aa64e211d6b9a') in 0.008491 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.960596 seconds.
-  path: Assets/MyGame/Sprites/Characters
-  artifactKey: Guid(367dc333854ef4f1e8f065368a46a7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters using Guid(367dc333854ef4f1e8f065368a46a7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db3010aaf9500a69790ddb6432c4c6a') in 0.001282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.668149 seconds.
-  path: Assets/MyGame/Sprites/Characters/Agent
-  artifactKey: Guid(569eb72fd3e014725a9fd3cd21c3cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters/Agent using Guid(569eb72fd3e014725a9fd3cd21c3cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5d2ff196fb36cb3653e52f2ce4eb73') in 0.000788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.061916 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes
-  artifactKey: Guid(7b544a5ad3b084843aea62410d667442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes using Guid(7b544a5ad3b084843aea62410d667442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2529a7494f31265ff259f1e6385d225b') in 0.001127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.091391 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes/bigdaddy_metalbox.png
-  artifactKey: Guid(a77550caaf993410991a3706253f9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes/bigdaddy_metalbox.png using Guid(a77550caaf993410991a3706253f9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4d42fa5fcbdf46d89168f21ab93990') in 0.195880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes/minicbbox.png
-  artifactKey: Guid(713ccb6eb92eb485db97719920cb65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes/minicbbox.png using Guid(713ccb6eb92eb485db97719920cb65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5162c3acf0ae110bee9896a550106197') in 0.008626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.692534 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Floor
-  artifactKey: Guid(b5b368e74eeec4107b4e56fa091cf3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Floor using Guid(b5b368e74eeec4107b4e56fa091cf3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9c4e3c0f59571b76d2879c40f4569c') in 0.001138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014148 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Floor/floor48-96.png
-  artifactKey: Guid(64da95449f9be482e97dc61db468f1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Floor/floor48-96.png using Guid(64da95449f9be482e97dc61db468f1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f5d16b7984929df6c424c09885873') in 0.015607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.468772 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants
-  artifactKey: Guid(7937f5f517b8f4b9388282d7a7d9fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants using Guid(7937f5f517b8f4b9388282d7a7d9fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e484f84887d288cf8b66f9d6647e2d') in 0.000866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.468905 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1
-  artifactKey: Guid(884d5383a66f040a1867bfdc12b3f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1 using Guid(884d5383a66f040a1867bfdc12b3f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d58df1db5a510866d0989c0bca1d0c') in 0.001153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044187 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/1.png
-  artifactKey: Guid(6e80747fd5a9642eb908681bf4bb7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/1.png using Guid(6e80747fd5a9642eb908681bf4bb7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ced8892bc71c021a10b16014e9f92b') in 0.008780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/7.png
-  artifactKey: Guid(7cf8444b653aa4f1392e04a1889a2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/7.png using Guid(7cf8444b653aa4f1392e04a1889a2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e237ab65d31e96236357e0187048fc') in 0.007581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/5.png
-  artifactKey: Guid(267baa3ae80154f12a13ec737246f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/5.png using Guid(267baa3ae80154f12a13ec737246f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058fe32454f93fecbd04fac77f48250a') in 0.006518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/6.png
-  artifactKey: Guid(1d36ab8b10bc64a689c9e27b7a9c1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/6.png using Guid(1d36ab8b10bc64a689c9e27b7a9c1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a777ae2e59ad5acf3b3d8feaa9df8b3e') in 0.008227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/8.png
-  artifactKey: Guid(6fb730dc47bbd44dd971076489d68051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/8.png using Guid(6fb730dc47bbd44dd971076489d68051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ac399e6fc628c796e2e871f7e9da22') in 0.005858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.320436 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall
-  artifactKey: Guid(5907ac88362ef492188f4f86d122e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall using Guid(5907ac88362ef492188f4f86d122e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daf34eca6e38bb925b190a14d094aad') in 0.000849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.035659 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/2wall192.png
-  artifactKey: Guid(1cc88f2f132aa41cd856355f4c122d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/2wall192.png using Guid(1cc88f2f132aa41cd856355f4c122d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff70c7aa968ccc13540ad72283c6046') in 0.011727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/wall96.png
-  artifactKey: Guid(455bb64ebf9494dfc9946f4c60aa844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/wall96.png using Guid(455bb64ebf9494dfc9946f4c60aa844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83de972d1321976b43904b7a7a5d2eaa') in 0.007566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/swall96.png
-  artifactKey: Guid(6d538413f1d4c46e1a9982a91060d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/swall96.png using Guid(6d538413f1d4c46e1a9982a91060d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6a3145c13de92bdbe0c22e7d6afc3b') in 0.007198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.462091 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams
-  artifactKey: Guid(47308707077cc49698b22454941ddb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams using Guid(47308707077cc49698b22454941ddb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9eec109e8fcdd66027852884362248') in 0.001122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049697 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/beam.png
-  artifactKey: Guid(b4582660770424103b45f2ed6c7df37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/beam.png using Guid(b4582660770424103b45f2ed6c7df37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bade9378274e6617a2dc442a1e9d7b') in 0.011039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/lbeam.png
-  artifactKey: Guid(5d0d9ba9d8dc64fa2a961da2111a6fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/lbeam.png using Guid(5d0d9ba9d8dc64fa2a961da2111a6fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a500b85f797e86da9f20faea792865') in 0.008710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xxsbeam.png
-  artifactKey: Guid(4f8eb4cbbcdba45a7aef0d15493172d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xxsbeam.png using Guid(4f8eb4cbbcdba45a7aef0d15493172d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9893236069a4aac3fff88681be022b2') in 0.007798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xsbeam.png
-  artifactKey: Guid(68f315ae4ea2947c9b7ffa7e3188a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xsbeam.png using Guid(68f315ae4ea2947c9b7ffa7e3188a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2555f8aad679e1a2489741d859a86f56') in 0.006609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 616.279274 seconds.
-  path: Assets/MyGame/Scenes/workScene.unity
-  artifactKey: Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/workScene.unity using Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4311d5c3eda58d37b2c1c92eaf28dd8') in 0.004406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.214008 seconds.
-  path: Assets/MyGame/Scenes/puxScene.unity
-  artifactKey: Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/puxScene.unity using Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268aada8f0f7690cefa28db97962d115') in 0.000754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.809300 seconds.
-  path: Assets/MyGame/Scenes/MainScene.unity
-  artifactKey: Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/MainScene.unity using Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b514d3d6fc5f59cd725b81d43e3a47') in 0.002272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.581100 seconds.
-  path: Assets/MyGame/Scenes/karpWorkScene.unity
-  artifactKey: Guid(4383dedc7042c40f29bf2f18ba3f515a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/karpWorkScene.unity using Guid(4383dedc7042c40f29bf2f18ba3f515a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888776b6267e3bffd5c23506f443d1ea') in 0.000904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.723848 seconds.
-  path: Assets/MyGame/Scenes/radeonScene.unity
-  artifactKey: Guid(17ab990b87e034a6f97d08b23a9128ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/radeonScene.unity using Guid(17ab990b87e034a6f97d08b23a9128ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f17a1bc67920327d609cd5dc3d34dc0') in 0.001874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.935065 seconds.
-  path: Assets/MyGame/Scenes/WorkScenes
-  artifactKey: Guid(fbc714e8bbcd142469bc42e005f1dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/WorkScenes using Guid(fbc714e8bbcd142469bc42e005f1dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9783c61f21812ee20e1257c4ee7f21ff') in 0.001292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.285649 seconds.
-  path: Assets/MyGame/Scenes/MainScene.unity
-  artifactKey: Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/MainScene.unity using Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e75b4ed2aa02a31285dc846111c738') in 0.000824 seconds 
+  Time since last request: 10.953028 seconds.
+  path: Assets/MyGame/Sprites/Characters/Agent/Old
+  artifactKey: Guid(3e389c59efe95462a8d4204f6c7e6909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/Characters/Agent/Old using Guid(3e389c59efe95462a8d4204f6c7e6909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a46e8aba4189839760688a8efaab36') in 0.000634 seconds 

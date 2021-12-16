@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50785
+51117
 Successfully changed project path to: /Users/a123/Desktop/Unity/Projects/spcSnake
 /Users/a123/Desktop/Unity/Projects/spcSnake
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/a123/Desktop/Unity/Projects/spcSnak
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -65,39 +65,40 @@ Metal devices available: 1
 0: Apple M1 (high power)
 Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
 Initialize mono
 Mono path[0] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56822
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000821 seconds.
+Registered in 0.001295 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 101.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.447 seconds
+- Completed reload, in  0.452 seconds
 Domain Reload Profiling:
-	ReloadAssembly (447ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (453ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (327ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (67ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (320ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (207ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (97ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (78ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
@@ -107,37 +108,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004418 seconds.
+Registered in 0.006332 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 97.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.571 seconds
+- Completed reload, in  1.575 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1572ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1576ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (1413ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (1418ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (1054ms)
+			SetupLoadedEditorAssemblies (1060ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (823ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (825ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,12 +148,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5354 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.5 MB). Loaded Objects now: 5786.
-Memory consumption went from 337.2 MB to 335.7 MB.
-Total: 3.057458 ms (FindLiveObjects: 0.193292 ms CreateObjectMapping: 0.063458 ms MarkObjects: 2.420125 ms  DeleteObjects: 0.380166 ms)
+Unloading 5355 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (1.5 MB). Loaded Objects now: 5787.
+Memory consumption went from 337.3 MB to 335.7 MB.
+Total: 3.257542 ms (FindLiveObjects: 0.192083 ms CreateObjectMapping: 0.071000 ms MarkObjects: 2.625875 ms  DeleteObjects: 0.368042 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,91 +167,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13136.692568 seconds.
-  path: Assets/MyGame/Sprites/Characters/Agent/mc_n2.png
-  artifactKey: Guid(964165a975ef349ef88f63dfb680f8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters/Agent/mc_n2.png using Guid(964165a975ef349ef88f63dfb680f8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90dca56897078e127d8873b7e6d2937') in 0.152669 seconds 
+  Time since last request: 17585.794230 seconds.
+  path: Assets/MyGame/Sprites/Characters/Agent/mc_on.png
+  artifactKey: Guid(808d808ff37964e9a8941462a950e5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/Characters/Agent/mc_on.png using Guid(808d808ff37964e9a8941462a950e5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eb09b9004226ec121e31c841bd0bef') in 0.122825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/MyGame/Sprites/Characters/Agent/mc_n.png
-  artifactKey: Guid(15316d614459848f8a1357e5d6f3d543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters/Agent/mc_n.png using Guid(15316d614459848f8a1357e5d6f3d543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284ebedbc6fe7cfd64ffb697b7bf8afb') in 0.006775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.557047 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes/cardboardbox.png
-  artifactKey: Guid(f5d9d08ecc04e43f6a156318e088ee9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes/cardboardbox.png using Guid(f5d9d08ecc04e43f6a156318e088ee9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8b40bf5d5e5a83e7e3f355ba7c56c0') in 0.154489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes/metalbox.png
-  artifactKey: Guid(952d3e6fbf41641a2a04be8c2c14357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes/metalbox.png using Guid(952d3e6fbf41641a2a04be8c2c14357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba808799f6994d6dc0110a2e06d984bb') in 0.008281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.715615 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Floor/floor96.png
-  artifactKey: Guid(6bae5f284fd92465a81f7febfe31d5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Floor/floor96.png using Guid(6bae5f284fd92465a81f7febfe31d5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2187584f62e6c8ac01d6111c35f034ab') in 0.012623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.003735 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/2.png
-  artifactKey: Guid(89f67123cd37e42ddac93389f56bfdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/2.png using Guid(89f67123cd37e42ddac93389f56bfdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be2add5173cce8a5e2be048bb016e72') in 0.008866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/4.png
-  artifactKey: Guid(586d70026272c4073853630fc5a191af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/4.png using Guid(586d70026272c4073853630fc5a191af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8ae80427e349105a34829bb0109ccb') in 0.007598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/9.png
-  artifactKey: Guid(69a3662914c9543f4a93c8200dd850b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/9.png using Guid(69a3662914c9543f4a93c8200dd850b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441d84552f780a13412353b7f847759c') in 0.006682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/3.png
-  artifactKey: Guid(c6acbe10800d145148c8350257eb2ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/3.png using Guid(c6acbe10800d145148c8350257eb2ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4202dc81ccca27eecc60ba408cdb0e2e') in 0.008191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.374188 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/lwall96.png
-  artifactKey: Guid(243a11fef93004a8f96970a3343b5acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/lwall96.png using Guid(243a11fef93004a8f96970a3343b5acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaac791638c3320eb96e884a2c78881e') in 0.010393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/xswall96.png
-  artifactKey: Guid(30790e03a77e143fb8c413731df8bd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/xswall96.png using Guid(30790e03a77e143fb8c413731df8bd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a0e568ccfb1085592f5740f751ca8e') in 0.008564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/mwall96.png
-  artifactKey: Guid(1852deb4633074cc89a14b052aabc5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/mwall96.png using Guid(1852deb4633074cc89a14b052aabc5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81a6e77a0314d6d033577a3b0443a30') in 0.007590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.521830 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/coltop.png
-  artifactKey: Guid(87f740c3bf8f64a91b492bc089a43d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/coltop.png using Guid(87f740c3bf8f64a91b492bc089a43d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e807a546802b14fb53bdfc2e1254ce85') in 0.010703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/mbeam.png
-  artifactKey: Guid(b887378758b424a84b22e01461652ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/mbeam.png using Guid(b887378758b424a84b22e01461652ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266a92d10822ea7d85dd652df15cd186') in 0.009131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/sbeam.png
-  artifactKey: Guid(51f779984212f4276ad3a6d579e91c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/sbeam.png using Guid(51f779984212f4276ad3a6d579e91c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2057af5f06aeaca49cd49752538f6ff0') in 0.008464 seconds 
+  Time since last request: 0.000066 seconds.
+  path: Assets/MyGame/Sprites/Characters/Agent/mc_gn.png
+  artifactKey: Guid(11045c0e9860c4c41bf6723287e7e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/Characters/Agent/mc_gn.png using Guid(11045c0e9860c4c41bf6723287e7e75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64b37d7479bf6039a24c508455f60b8') in 0.011850 seconds 
