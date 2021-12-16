@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50785
+50923
 Successfully changed project path to: /Users/a123/Desktop/Unity/Projects/spcSnake
 /Users/a123/Desktop/Unity/Projects/spcSnake
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/a123/Desktop/Unity/Projects/spcSnak
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,75 +69,75 @@ Initialize mono
 Mono path[0] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56782
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000821 seconds.
+Registered in 0.002111 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 101.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.447 seconds
+- Completed reload, in  0.435 seconds
 Domain Reload Profiling:
-	ReloadAssembly (447ms)
+	ReloadAssembly (435ms)
 		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (327ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (67ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (315ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (204ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004432 seconds.
+Registered in 0.002151 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.546 seconds
+- Completed reload, in  1.586 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1547ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1587ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (1388ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (1426ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (1023ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1067ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (101ms)
 				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (794ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (833ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,8 +151,8 @@ Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5354 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 60 unused Assets / (1.5 MB). Loaded Objects now: 5786.
-Memory consumption went from 337.2 MB to 335.7 MB.
-Total: 3.328709 ms (FindLiveObjects: 0.226375 ms CreateObjectMapping: 0.074167 ms MarkObjects: 2.600000 ms  DeleteObjects: 0.427417 ms)
+Memory consumption went from 337.3 MB to 335.8 MB.
+Total: 3.197250 ms (FindLiveObjects: 0.211833 ms CreateObjectMapping: 0.070625 ms MarkObjects: 2.543042 ms  DeleteObjects: 0.371000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,193 +166,151 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13136.692047 seconds.
-  path: Assets/MyGame/Sprites/Characters/Agent/mc.png
-  artifactKey: Guid(af2d9db46629147f4bb8168a172d157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters/Agent/mc.png using Guid(af2d9db46629147f4bb8168a172d157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1ae7a85cd23993755bffac3f69ea3a') in 0.153166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.736318 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding
-  artifactKey: Guid(53a7cd1dd196946a6b32a438e81dfb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding using Guid(53a7cd1dd196946a6b32a438e81dfb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54438471f4c150ccfe3e7eadb175eb6') in 0.001287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.960596 seconds.
-  path: Assets/MyGame/Sprites/Characters
-  artifactKey: Guid(367dc333854ef4f1e8f065368a46a7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters using Guid(367dc333854ef4f1e8f065368a46a7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db3010aaf9500a69790ddb6432c4c6a') in 0.001282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.668149 seconds.
-  path: Assets/MyGame/Sprites/Characters/Agent
-  artifactKey: Guid(569eb72fd3e014725a9fd3cd21c3cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Characters/Agent using Guid(569eb72fd3e014725a9fd3cd21c3cfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5d2ff196fb36cb3653e52f2ce4eb73') in 0.000788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.061916 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes
-  artifactKey: Guid(7b544a5ad3b084843aea62410d667442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes using Guid(7b544a5ad3b084843aea62410d667442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2529a7494f31265ff259f1e6385d225b') in 0.001127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.091391 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes/bigdaddy_metalbox.png
-  artifactKey: Guid(a77550caaf993410991a3706253f9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes/bigdaddy_metalbox.png using Guid(a77550caaf993410991a3706253f9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4d42fa5fcbdf46d89168f21ab93990') in 0.195880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Boxes/minicbbox.png
-  artifactKey: Guid(713ccb6eb92eb485db97719920cb65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Boxes/minicbbox.png using Guid(713ccb6eb92eb485db97719920cb65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5162c3acf0ae110bee9896a550106197') in 0.008626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.692534 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Floor
-  artifactKey: Guid(b5b368e74eeec4107b4e56fa091cf3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Floor using Guid(b5b368e74eeec4107b4e56fa091cf3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9c4e3c0f59571b76d2879c40f4569c') in 0.001138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014148 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Floor/floor48-96.png
-  artifactKey: Guid(64da95449f9be482e97dc61db468f1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Floor/floor48-96.png using Guid(64da95449f9be482e97dc61db468f1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f5d16b7984929df6c424c09885873') in 0.015607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.468772 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants
-  artifactKey: Guid(7937f5f517b8f4b9388282d7a7d9fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants using Guid(7937f5f517b8f4b9388282d7a7d9fa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e484f84887d288cf8b66f9d6647e2d') in 0.000866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.468905 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1
-  artifactKey: Guid(884d5383a66f040a1867bfdc12b3f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1 using Guid(884d5383a66f040a1867bfdc12b3f84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d58df1db5a510866d0989c0bca1d0c') in 0.001153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044187 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/1.png
-  artifactKey: Guid(6e80747fd5a9642eb908681bf4bb7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/1.png using Guid(6e80747fd5a9642eb908681bf4bb7f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ced8892bc71c021a10b16014e9f92b') in 0.008780 seconds 
+  Time since last request: 14914.300969 seconds.
+  path: Assets/MyGame/Sprites/UI/StaminaFillBar_2.png
+  artifactKey: Guid(772644d66544045c6aeddf2a9924bdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/UI/StaminaFillBar_2.png using Guid(772644d66544045c6aeddf2a9924bdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375935446cafd38bceb82ced2974137b') in 0.137170 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/7.png
-  artifactKey: Guid(7cf8444b653aa4f1392e04a1889a2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/7.png using Guid(7cf8444b653aa4f1392e04a1889a2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e237ab65d31e96236357e0187048fc') in 0.007581 seconds 
+  path: Assets/MyGame/Sprites/UI
+  artifactKey: Guid(0f0e10eec7692432590963ccfefdef18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/UI using Guid(0f0e10eec7692432590963ccfefdef18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57007b4a0ff53b2ab0e65d854aca2526') in 0.000533 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/5.png
-  artifactKey: Guid(267baa3ae80154f12a13ec737246f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/5.png using Guid(267baa3ae80154f12a13ec737246f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058fe32454f93fecbd04fac77f48250a') in 0.006518 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Assets/MyGame/Sprites/UI/FrameBar.png
+  artifactKey: Guid(9590e2445c2f44a64a28bc023695decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Sprites/UI/FrameBar.png using Guid(9590e2445c2f44a64a28bc023695decf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0917c89b681e4edb5cba4d2563d5f818') in 0.009385 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001951 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17f94b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5245 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (1.5 MB). Loaded Objects now: 5823.
+Memory consumption went from 339.8 MB to 338.3 MB.
+Total: 3.009041 ms (FindLiveObjects: 0.213750 ms CreateObjectMapping: 0.063125 ms MarkObjects: 2.365084 ms  DeleteObjects: 0.366250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002189 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fd03000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (1.5 MB). Loaded Objects now: 5825.
+Memory consumption went from 340.4 MB to 338.9 MB.
+Total: 3.298584 ms (FindLiveObjects: 0.204250 ms CreateObjectMapping: 0.067667 ms MarkObjects: 2.428417 ms  DeleteObjects: 0.597667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/6.png
-  artifactKey: Guid(1d36ab8b10bc64a689c9e27b7a9c1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/6.png using Guid(1d36ab8b10bc64a689c9e27b7a9c1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a777ae2e59ad5acf3b3d8feaa9df8b3e') in 0.008227 seconds 
+  Time since last request: 1774.827999 seconds.
+  path: Assets/MyGame/Prefab/Square.prefab
+  artifactKey: Guid(d0737345b2aa62c4aaf2ebb9b7d83d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefab/Square.prefab using Guid(d0737345b2aa62c4aaf2ebb9b7d83d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3318e098695198f001c153a707f6d2d') in 0.410568 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Plants/1/8.png
-  artifactKey: Guid(6fb730dc47bbd44dd971076489d68051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Plants/1/8.png using Guid(6fb730dc47bbd44dd971076489d68051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ac399e6fc628c796e2e871f7e9da22') in 0.005858 seconds 
+  Time since last request: 12.321014 seconds.
+  path: Assets/MyGame/Prefab/UIElements
+  artifactKey: Guid(3717dfb1bc8604c1a955ce749260b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefab/UIElements using Guid(3717dfb1bc8604c1a955ce749260b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3a59b85f273d20f1c7bfb1765e8def') in 0.000872 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.320436 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall
-  artifactKey: Guid(5907ac88362ef492188f4f86d122e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall using Guid(5907ac88362ef492188f4f86d122e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0daf34eca6e38bb925b190a14d094aad') in 0.000849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.035659 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/2wall192.png
-  artifactKey: Guid(1cc88f2f132aa41cd856355f4c122d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/2wall192.png using Guid(1cc88f2f132aa41cd856355f4c122d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff70c7aa968ccc13540ad72283c6046') in 0.011727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/wall96.png
-  artifactKey: Guid(455bb64ebf9494dfc9946f4c60aa844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/wall96.png using Guid(455bb64ebf9494dfc9946f4c60aa844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83de972d1321976b43904b7a7a5d2eaa') in 0.007566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/swall96.png
-  artifactKey: Guid(6d538413f1d4c46e1a9982a91060d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/swall96.png using Guid(6d538413f1d4c46e1a9982a91060d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6a3145c13de92bdbe0c22e7d6afc3b') in 0.007198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.462091 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams
-  artifactKey: Guid(47308707077cc49698b22454941ddb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams using Guid(47308707077cc49698b22454941ddb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9eec109e8fcdd66027852884362248') in 0.001122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049697 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/beam.png
-  artifactKey: Guid(b4582660770424103b45f2ed6c7df37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/beam.png using Guid(b4582660770424103b45f2ed6c7df37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bade9378274e6617a2dc442a1e9d7b') in 0.011039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/lbeam.png
-  artifactKey: Guid(5d0d9ba9d8dc64fa2a961da2111a6fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/lbeam.png using Guid(5d0d9ba9d8dc64fa2a961da2111a6fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a500b85f797e86da9f20faea792865') in 0.008710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xxsbeam.png
-  artifactKey: Guid(4f8eb4cbbcdba45a7aef0d15493172d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xxsbeam.png using Guid(4f8eb4cbbcdba45a7aef0d15493172d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9893236069a4aac3fff88681be022b2') in 0.007798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xsbeam.png
-  artifactKey: Guid(68f315ae4ea2947c9b7ffa7e3188a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/LevelBuilding/Wall/Beams/xsbeam.png using Guid(68f315ae4ea2947c9b7ffa7e3188a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2555f8aad679e1a2489741d859a86f56') in 0.006609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 616.279274 seconds.
-  path: Assets/MyGame/Scenes/workScene.unity
-  artifactKey: Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/workScene.unity using Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4311d5c3eda58d37b2c1c92eaf28dd8') in 0.004406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.214008 seconds.
-  path: Assets/MyGame/Scenes/puxScene.unity
-  artifactKey: Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/puxScene.unity using Guid(025f5086beaf864428d7ee340bce1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268aada8f0f7690cefa28db97962d115') in 0.000754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.809300 seconds.
-  path: Assets/MyGame/Scenes/MainScene.unity
-  artifactKey: Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/MainScene.unity using Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b514d3d6fc5f59cd725b81d43e3a47') in 0.002272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.581100 seconds.
-  path: Assets/MyGame/Scenes/karpWorkScene.unity
-  artifactKey: Guid(4383dedc7042c40f29bf2f18ba3f515a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/karpWorkScene.unity using Guid(4383dedc7042c40f29bf2f18ba3f515a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888776b6267e3bffd5c23506f443d1ea') in 0.000904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.723848 seconds.
-  path: Assets/MyGame/Scenes/radeonScene.unity
-  artifactKey: Guid(17ab990b87e034a6f97d08b23a9128ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/radeonScene.unity using Guid(17ab990b87e034a6f97d08b23a9128ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f17a1bc67920327d609cd5dc3d34dc0') in 0.001874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.935065 seconds.
-  path: Assets/MyGame/Scenes/WorkScenes
-  artifactKey: Guid(fbc714e8bbcd142469bc42e005f1dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/WorkScenes using Guid(fbc714e8bbcd142469bc42e005f1dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9783c61f21812ee20e1257c4ee7f21ff') in 0.001292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.285649 seconds.
-  path: Assets/MyGame/Scenes/MainScene.unity
-  artifactKey: Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/MainScene.unity using Guid(44ec3478809144cefbc12ebf86203d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e75b4ed2aa02a31285dc846111c738') in 0.000824 seconds 
+  Time since last request: 33.605437 seconds.
+  path: Assets/MyGame/Prefab/UIElements/BarPref.prefab
+  artifactKey: Guid(d74aab9b42f184bb695b33fccd5ea7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefab/UIElements/BarPref.prefab using Guid(d74aab9b42f184bb695b33fccd5ea7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf9bec4a6c42c2b31d784c183884bcb') in 0.020066 seconds 
