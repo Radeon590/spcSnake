@@ -67,7 +67,7 @@ public class RadiationReciever : MonoBehaviour
             timer = 0;
         }
         //rad bar value update
-        if (radiationBar.value < _radiationValue)
+        /*if (radiationBar.value < _radiationValue)
         {
             radiationBar.value += Time.deltaTime * _radiationBarAdditionalMultiplier;
         }
@@ -78,7 +78,7 @@ public class RadiationReciever : MonoBehaviour
         else
         {
             radiationBar.value = _radiationValue;
-        }
+        }*/
     }
 
     private void BecomeSource()
