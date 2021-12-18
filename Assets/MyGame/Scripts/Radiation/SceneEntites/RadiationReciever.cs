@@ -41,6 +41,9 @@ public class RadiationReciever : MonoBehaviour
     private RadiationSource[] sources;
     //
     private float timer = 0;
+    //
+    private bool isRadiationSource = false;
+    private float radiationSourceTime = 3;
 
     private void Start()
     {
@@ -66,6 +69,25 @@ public class RadiationReciever : MonoBehaviour
             //
             timer = 0;
         }
+        //radiation itself timer
+        if (isRadiationSource)
+        {
+            if (radiationSourceTime < 3)
+            {
+                radiationSourceTime += Time.deltaTime;
+            }
+            else
+            {
+                GameObject radSource = transform.GetChild(0).gameObject;
+                RadiationSource source;
+                if (radSource.TryGetComponent(out source))
+                {
+                    Debug.Log("destroy");
+                    isRadiationSource = false;
+                    Destroy(radSource);
+                }            
+            }
+        }
         //rad bar value update
         /*if (radiationBar.value < _radiationValue)
         {
@@ -85,13 +107,13 @@ public class RadiationReciever : MonoBehaviour
     {
         if (!gameObject.isStatic)
         {
-            RadiationSource source;
-            if (transform.childCount > 0)
+            if (!isRadiationSource)
             {
-                if (!transform.GetChild(0).gameObject.TryGetComponent(out source))
-                {
-                    source = this.gameObject.AddComponent<RadiationSource>();
-                }
+                GameObject newSource = Instantiate(radiationSource_pref);
+                Debug.Log("source");
+                newSource.transform.parent = this.transform;
+                isRadiationSource = true;
+                radiationSourceTime = 0;
             }
         }
     }
