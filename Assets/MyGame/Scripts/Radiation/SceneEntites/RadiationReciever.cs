@@ -76,7 +76,7 @@ public class RadiationReciever : MonoBehaviour
             {
                 radiationSourceTime += Time.deltaTime;
             }
-            else
+            if(_radiationValue == 0)
             {
                 GameObject radSource = transform.GetChild(0).gameObject;
                 RadiationSource source;
