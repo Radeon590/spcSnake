@@ -8,6 +8,7 @@ using Random = System.Random;
 public class MapGenerator : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] private GameObject mapSpawner;
     [SerializeField] private List<GameObject> rooms;
     [SerializeField] private GameObject firstRoom;
     [SerializeField] private GameObject defaultRoom;
@@ -17,7 +18,7 @@ public class MapGenerator : MonoBehaviour
     private int _cursorPoint = rnd.Next(1, 9) * 10 + rnd.Next(1, 9);
     private int _roomsCount = rnd.Next(2) + 4;
 
-    private bool onlyOneNeighboor(int cursor)
+    private bool OnlyOneNeighboor(int cursor)
     {
         int neighboorCount = 0;
         if (cursor % 10 > 0)
@@ -47,6 +48,17 @@ public class MapGenerator : MonoBehaviour
         if (neighboorCount > 1)
             return false;
         return true;
+    }
+
+    void SpawnMap()
+    {
+        for (var i = 0; i < 10; ++i)
+        {
+            for (var j = 0; j < 10; ++j)
+            {
+                Instantiate(map[i, j]);
+            }
+        }
     }
     void Start()
     {
@@ -85,16 +97,16 @@ public class MapGenerator : MonoBehaviour
                     _cursorPoint -= 1;
                 }
 
-                if (map[_cursorPoint / 10, _cursorPoint % 10] == defaultRoom)// && onlyOneNeighboor(_cursorPoint))
-                {
-                    --_roomsCount;
-                    var randElement = rooms[rnd.Next(rooms.Count)];
-                    map[_cursorPoint / 10, _cursorPoint % 10] = randElement;
-                    rooms.Remove(randElement);
-                }
+                if (map[_cursorPoint / 10, _cursorPoint % 10] != defaultRoom) continue;
+                --_roomsCount;
+                var randElement = rooms[rnd.Next(rooms.Count)];
+                map[_cursorPoint / 10, _cursorPoint % 10] = randElement;
+                rooms.Remove(randElement);
 
             }
         }
+
+        SpawnMap();
     }
 
     // Update is called once per frame
