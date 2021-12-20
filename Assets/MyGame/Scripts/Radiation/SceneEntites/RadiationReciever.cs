@@ -110,7 +110,7 @@ public class RadiationReciever : MonoBehaviour
             if (!isRadiationSource)
             {
                 GameObject newSource = Instantiate(radiationSource_pref);
-                Debug.Log("source");
+                newSource.layer = 6;
                 newSource.transform.parent = this.transform;
                 isRadiationSource = true;
                 radiationSourceTime = 0;

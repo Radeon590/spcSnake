@@ -1228,6 +1228,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: currentMouseMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: cursorSprites.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: cursorSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: f2dd170675a47402589defad4c8d9b63, type: 3}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: cursorSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 97949d80d08504b679699eff60d91880, type: 3}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: cursorSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 98940d04f62c4496a9668e499a3811ef, type: 3}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: cursorSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: dc3e0fd1c66d74a388ac408d4ef4e5b0, type: 3}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: cursorSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: d345259fe09954925a990cd643a80004, type: 3}
+    - target: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+      propertyPath: cursorSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 86bd0755b078c46e7a3fae030df680c6, type: 3}
     - target: {fileID: 3405479125419960802, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
       propertyPath: m_Name
       value: PlayerControllers
