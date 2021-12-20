@@ -37,8 +37,17 @@ public class MouseController : MonoBehaviour
                     Cursor.SetCursor(cursorSprites[6].texture, Vector2.zero, CursorMode.Auto);
                     break;
             }
+
+            _currentCursor = value;
+        }
+
+        get
+        {
+            return _currentCursor;
         }
     }
+
+    private HoverableEntityType _currentCursor = HoverableEntityType.basic;
 
     public HoverableEntityType currentMouseMode = HoverableEntityType.basic;
     
@@ -69,6 +78,10 @@ public class MouseController : MonoBehaviour
                         CurrentCursor = HoverableEntityType.basic;
                     }
                 }
+            }
+            else
+            {
+                CurrentCursor = HoverableEntityType.basic;
             }
         }
 
