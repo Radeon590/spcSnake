@@ -438,3 +438,9 @@ Received Import Request.
   path: Assets/MyGame/Prefabs/Rooms/StartRoom.prefab
   artifactKey: Guid(c9bae5634f09243838922714e5b3f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MyGame/Prefabs/Rooms/StartRoom.prefab using Guid(c9bae5634f09243838922714e5b3f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b905bf4176c831b7ee08d10da6ffd1') in 0.228100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6841.910710 seconds.
+  path: Assets/MyGame/Prefabs/Rooms/StartRoom.prefab
+  artifactKey: Guid(c9bae5634f09243838922714e5b3f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Rooms/StartRoom.prefab using Guid(c9bae5634f09243838922714e5b3f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0956994882ac1c10e9513425725f87f') in 0.174886 seconds 
