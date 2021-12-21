@@ -15,7 +15,6 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Vector2.Distance(playerTransform.position, transform.position));
         if (!needMove)
         {
             if (playerTransform.position.x > transform.position.x + cameraDelta_x ||
