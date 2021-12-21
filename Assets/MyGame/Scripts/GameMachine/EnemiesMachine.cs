@@ -19,7 +19,7 @@ public class EnemiesMachine : MonoBehaviour
     {
         foreach (var VARIABLE in LogicNpc)
         {
-            
+            VARIABLE.MakeTurn();
         }
     }
 }

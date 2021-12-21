@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Move_NPC : MonoBehaviour
@@ -16,8 +17,23 @@ public class Move_NPC : MonoBehaviour
     private Vector2 lastPos;
     private bool move = false;
     private float timer = 0;
+    //
+    public float staminaValue = 1;
     
     private void Update()
+    {
+        if (staminaValue > 0)
+        {
+            Move();
+        }
+        else
+        {
+            move = false;
+            onNPCArrived.Invoke();
+        }
+    }
+
+    private void Move()
     {
         timer += Time.deltaTime * speed;
         transform.position = Vector2.Lerp(lastPos, CurrentTarget, timer);

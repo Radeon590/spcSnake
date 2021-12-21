@@ -13,6 +13,10 @@ public class StateMachine : MonoBehaviour
 
     public OnEnemyTurn onEnemyTurn;
     //
+    public delegate void OnDeath();
+
+    public OnDeath onDeath;
+    //
     
     public TurnStates CurrentState
     {
@@ -26,6 +30,9 @@ public class StateMachine : MonoBehaviour
                 case TurnStates.enemiesTurn:
                     onEnemyTurn.Invoke();
                     break;
+                case TurnStates.death:
+                    onDeath.Invoke();
+                    break;
             }
             
             _currentState = value;
@@ -38,5 +45,6 @@ public class StateMachine : MonoBehaviour
 public enum TurnStates
 {
     playerTurn,
-    enemiesTurn
+    enemiesTurn,
+    death
 }

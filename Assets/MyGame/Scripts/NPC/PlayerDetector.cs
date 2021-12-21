@@ -17,24 +17,17 @@ public class PlayerDetector : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    public bool IsPlayerDetected()
     {
         if (Vector2.Distance(player.transform.position, transform.position) < detectDistance)
         {
-            CheckIfSee();
+            return CheckIfSee();
         }
+
+        return false;
     }
 
-    private void Update()
-    {
-        if (seen)
-        {
-            seenTimer += Time.deltaTime;
-        }
-    }
-
-    private void CheckIfSee()
+    private bool CheckIfSee()
     {
         int layerMask = 1 << 6;
 
@@ -44,8 +37,10 @@ public class PlayerDetector : MonoBehaviour
         {
             if (hits2D.collider.gameObject.tag == "Player")
             {
-                seen = true;
+                return true;
             }
         }
+        //
+        return false;
     }
 }
