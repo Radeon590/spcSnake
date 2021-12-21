@@ -8,12 +8,11 @@ using Random = System.Random;
 public class MapGenerator : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private GameObject mapSpawner;
-    [SerializeField] private List<GameObject> rooms;
-    [SerializeField] private GameObject firstRoom;
-    [SerializeField] private GameObject defaultRoom;
+    [SerializeField] private List<Room> rooms;
+    [SerializeField] private Room firstRoom;
+    [SerializeField] private Room defaultRoom;
 
-    [SerializeField] private GameObject[,] map = new GameObject[10,10];
+    [SerializeField] private Room[,] map = new Room[10,10];
     private static Random rnd = new Random();
     private int _cursorPoint = rnd.Next(1, 9) * 10 + rnd.Next(1, 9);
     private int _roomsCount = rnd.Next(2) + 4;
@@ -56,7 +55,8 @@ public class MapGenerator : MonoBehaviour
         {
             for (var j = 0; j < 10; ++j)
             {
-                Instantiate(map[i, j]);
+                var obj = Instantiate(map[i, j]);
+                obj.transform.position = new Vector2(1f * obj.GetComponent<Room>().GetWidth(),1f * obj.GetComponent<Room>().GetHeight());
             }
         }
     }
