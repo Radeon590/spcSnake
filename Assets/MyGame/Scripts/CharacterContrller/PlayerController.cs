@@ -13,12 +13,13 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log(GameObject.FindGameObjectWithTag("GameController").name);
         stateMachine = GameObject.FindGameObjectWithTag("GameController").GetComponent<StateMachine>();
         stateMachine.onPlayerTurn += StartPlayerTurn;
         //
         playerMove.PlayerController = this;
         //
-        stateMachine.gameObject.SetActive(true);
+        stateMachine.CurrentState = TurnStates.playerTurn;
     }
 
     public void StartPlayerTurn()

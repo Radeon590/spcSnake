@@ -33,11 +33,6 @@ public class StateMachine : MonoBehaviour
     }
 
     private TurnStates _currentState;
-
-    private void Awake()
-    {
-        CurrentState = TurnStates.playerTurn;
-    }
 }
 
 public enum TurnStates
