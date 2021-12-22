@@ -22,14 +22,17 @@ public class Move_NPC : MonoBehaviour
     
     private void Update()
     {
-        if (staminaValue > 0)
+        if (move)
         {
-            Move();
-        }
-        else
-        {
-            move = false;
-            onNPCArrived.Invoke();
+            if (staminaValue > 0)
+            {
+                Move();
+            }
+            else
+            {
+                move = false;
+                onNPCArrived.Invoke();
+            }
         }
     }
 

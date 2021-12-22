@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Move_NPC))]
+[RequireComponent(typeof(Move_NPC), typeof(PlayerDetector))]
 public class Logic_NPC : MonoBehaviour
 {
     [SerializeField] private Transform[] movementPoints;
@@ -36,7 +36,6 @@ public class Logic_NPC : MonoBehaviour
         GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemiesMachine>().LogicNpc.Add(this);
         //
         _moveNpc = GetComponent<Move_NPC>();
-        //StandartMovement();
     }
 
     public void MakeTurn()
@@ -76,6 +75,5 @@ public class Logic_NPC : MonoBehaviour
     public void OnEnemyArrived_toPlayer()
     {
         GameObject.Find("PlayerControllers").GetComponent<HP>().HP_Level -= 0.5f;
-        
     }
 }

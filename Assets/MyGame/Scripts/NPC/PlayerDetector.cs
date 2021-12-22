@@ -30,14 +30,20 @@ public class PlayerDetector : MonoBehaviour
     private bool CheckIfSee()
     {
         int layerMask = 1 << 6;
-
-        RaycastHit2D hits2D = Physics2D.Raycast(transform.position, player.transform.position, detectDistance, ~layerMask);
+        
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        float distance = Vector2.Distance(transform.position, player.transform.position) + 1;
+        RaycastHit2D[] hits2D = Physics2D.RaycastAll(transform.position, direction, distance, ~layerMask);
         //
         if (hits2D != null)
         {
-            if (hits2D.collider.gameObject.tag == "Player")
+            foreach (var VARIABLE in hits2D)
             {
-                return true;
+                if (VARIABLE.collider.gameObject.tag == "Player")
+                {
+                    Debug.Log("true");
+                    return true;
+                }
             }
         }
         //

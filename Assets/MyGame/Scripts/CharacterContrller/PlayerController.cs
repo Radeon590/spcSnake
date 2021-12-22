@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
         //
         playerMove.PlayerController = this;
         //
-        stateMachine.CurrentState = TurnStates.playerTurn;
+        stateMachine.CurrentState = TurnStates.enemiesTurn;
     }
 
     public void StartPlayerTurn()
