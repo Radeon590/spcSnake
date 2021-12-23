@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class UI_MainController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private MouseController mouseController;
+    
+    public static bool UI_Highlighted
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        set{}
     }
 }

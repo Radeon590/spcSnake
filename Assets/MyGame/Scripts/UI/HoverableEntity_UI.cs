@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class HoverableEntity_UI : MonoBehaviour, IPointerEnterHandler
 {
-    
+    [SerializeField] private MouseController mouseController;
     
     public void OnPointerEnter(PointerEventData eventData)
     {
