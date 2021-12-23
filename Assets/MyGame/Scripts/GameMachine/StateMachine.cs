@@ -37,6 +37,11 @@ public class StateMachine : MonoBehaviour
             
             _currentState = value;
         }
+
+        get
+        {
+            return _currentState;
+        }
     }
 
     private TurnStates _currentState;

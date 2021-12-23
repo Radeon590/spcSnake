@@ -19,7 +19,7 @@ public class PlayerDetector : MonoBehaviour
 
     public bool IsPlayerDetected()
     {
-        if (Vector2.Distance(player.transform.position, transform.position) < detectDistance)
+        if (CheckDistnace(detectDistance))
         {
             return CheckIfSee();
         }
@@ -27,6 +27,16 @@ public class PlayerDetector : MonoBehaviour
         return false;
     }
 
+    public bool CheckDistnace(float distance)
+    {
+        if (Vector2.Distance(player.transform.position, transform.position) < distance)
+        {
+            return true;
+        }
+
+        return false;
+    }
+    
     private bool CheckIfSee()
     {
         int layerMask = 1 << 6;

@@ -13,6 +13,8 @@ public class Move_NPC : MonoBehaviour
     public delegate void Arrived();
 
     public Arrived onNPCArrived;
+
+    public Arrived onStaminaEnd;
     //
     private Vector2 lastPos;
     private bool move = false;
@@ -31,7 +33,7 @@ public class Move_NPC : MonoBehaviour
             else
             {
                 move = false;
-                onNPCArrived.Invoke();
+                onStaminaEnd.Invoke();
             }
         }
     }

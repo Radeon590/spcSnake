@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3405479125419960800}
   - component: {fileID: 3405479125419960801}
+  - component: {fileID: 6040934545004932762}
+  - component: {fileID: 7627589428978013788}
   m_Layer: 0
   m_Name: PlayerControllers
   m_TagString: Untagged
@@ -44,3 +46,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf58caee5fa1c4607b6de55bfab5d379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorSprites: []
+  currentMouseMode: 1
+--- !u!114 &6040934545004932762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3405479125419960802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c2f3e1289e34cb28e1aad41f83d66f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpBar: {fileID: 0}
+  stateMachine: {fileID: 0}
+--- !u!114 &7627589428978013788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3405479125419960802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8916a50d4e2c4264bffee3764245d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaitingScreen: {fileID: 0}
+  playerMove: {fileID: 0}

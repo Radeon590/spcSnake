@@ -6,6 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(Move_NPC), typeof(PlayerDetector))]
 public class Logic_NPC : MonoBehaviour
 {
+    public EnemiesMachine EnemiesMachine;
+    //
     [SerializeField] private Transform[] movementPoints;
     //
     private Move_NPC _moveNpc;
@@ -38,17 +40,26 @@ public class Logic_NPC : MonoBehaviour
         _moveNpc = GetComponent<Move_NPC>();
     }
 
-    public void MakeTurn()
+    public bool MakeTurn(float enemiesActivityDistance)
     {
-        _moveNpc.staminaValue = 1;
-        if (GetComponent<PlayerDetector>().IsPlayerDetected())
+        PlayerDetector playerDetector = GetComponent<PlayerDetector>();
+        if (playerDetector.CheckDistnace(enemiesActivityDistance))
         {
-            PlayerDetectedMovement(GameObject.FindGameObjectWithTag("Player").transform.position);
+            _moveNpc.staminaValue = 1;
+            _moveNpc.onStaminaEnd += EndTurn;
+            if (GetComponent<PlayerDetector>().IsPlayerDetected())
+            {
+                PlayerDetectedMovement(GameObject.FindGameObjectWithTag("Player").transform.position);
+            }
+            else
+            {
+                StandartMovement();
+            }
+
+            return true;
         }
-        else
-        {
-            StandartMovement();
-        }
+
+        return false;
     }
 
     private void StandartMovement()
@@ -75,5 +86,11 @@ public class Logic_NPC : MonoBehaviour
     public void OnEnemyArrived_toPlayer()
     {
         GameObject.Find("PlayerControllers").GetComponent<HP>().HP_Level -= 0.5f;
+        EndTurn();
+    }
+    //
+    public void EndTurn()
+    {
+        EnemiesMachine.MovedEnemies++;
     }
 }
