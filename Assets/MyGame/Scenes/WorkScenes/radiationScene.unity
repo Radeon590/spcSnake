@@ -718,6 +718,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &490766229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3405479125419960802, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+  m_PrefabInstance: {fileID: 3405479126405578203}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &589874106 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2559677081105226595, guid: 534ab386ecc3e48a083630f59d313b76, type: 3}
@@ -2518,7 +2523,7 @@ SpriteRenderer:
   m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1742316077
@@ -2602,7 +2607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16519b647d0c4d248c99f56bcd9131b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemiesMachine: {fileID: 0}
+  EnemiesMachine: {fileID: 353042941}
   movementPoints:
   - {fileID: 1542233488}
   - {fileID: 1149674651}
@@ -2789,12 +2794,26 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3405479125419960801, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
   m_PrefabInstance: {fileID: 3405479126405578203}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 490766229}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf58caee5fa1c4607b6de55bfab5d379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2081879744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490766229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29f1f2c7c9f64790acbb117db053b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpBar: {fileID: 6669403974970263506}
+  stateMachine: {fileID: 353042938}
 --- !u!1001 &862834089280522122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3161,7 +3180,8 @@ PrefabInstance:
       propertyPath: WaitingScreen
       value: 
       objectReference: {fileID: 937643486}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6040934545004932762, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
 --- !u!1001 &4286478482145751022
 PrefabInstance:
