@@ -3397,10 +3397,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8740842716397540228, guid: 46cde0ffce0d740a98a2ade7c3e88528, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8740842716397540231, guid: 46cde0ffce0d740a98a2ade7c3e88528, type: 3}
       propertyPath: radiationSource_pref
       value: 
       objectReference: {fileID: 1229549195}
+    - target: {fileID: 8740842716397540344, guid: 46cde0ffce0d740a98a2ade7c3e88528, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8740842716397540347, guid: 46cde0ffce0d740a98a2ade7c3e88528, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3415,7 +3423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8740842716397540347, guid: 46cde0ffce0d740a98a2ade7c3e88528, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8740842716397540347, guid: 46cde0ffce0d740a98a2ade7c3e88528, type: 3}
       propertyPath: m_LocalRotation.w

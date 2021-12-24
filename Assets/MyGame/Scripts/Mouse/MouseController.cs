@@ -106,10 +106,13 @@ public class MouseController : MonoBehaviour
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 raycastFinalPos = new Vector3(mousePos.x, mousePos.y, mousePos.z + 30);
         int layerMask = 1 << 6;
-        RaycastHit2D hit2d = Physics2D.Raycast(mousePos, raycastFinalPos, 30, ~layerMask);
-        if (hit2d.collider != null)
+        RaycastHit2D[] hits = Physics2D.RaycastAll(mousePos, raycastFinalPos, 30, ~layerMask);
+        if (hits.Length > 0)
         {
-            result = hit2d.collider.gameObject;
+            if (hits[hits.Length - 1].collider != null)
+            {
+                result = hits[hits.Length - 1].collider.gameObject;
+            }
         }
         //
         return result;
