@@ -123,7 +123,6 @@ public class MapGenerator : MonoBehaviour
         {
             for (var j = 0; j < ysize; ++j)
             {
-                Debug.Log($"i:{i} j:{j}");
                 var randElement = rooms[rnd.Next(rooms.Count)];
                 map[i, j] = randElement;
                 //rooms.Remove(randElement);//если сделать комнаты больше 10, то раскоментить надо эту строку
