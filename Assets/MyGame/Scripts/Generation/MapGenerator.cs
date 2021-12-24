@@ -124,18 +124,10 @@ public class MapGenerator : MonoBehaviour
             for (var j = 0; j < ysize; ++j)
             {
                 Debug.Log($"i:{i} j:{j}");
-                map[i, j] = defaultRoom;
+                var randElement = rooms[rnd.Next(rooms.Count)];
+                map[i, j] = randElement;
+                //rooms.Remove(randElement);//если сделать комнаты больше 10, то раскоментить надо эту строку
             }
-        }
-        while (_roomsCount > 0)
-        {
-            var pointx = rnd.Next(xsize);
-            var pointy = rnd.Next(ysize);
-            if (map[pointx, pointy] != defaultRoom) continue;
-            --_roomsCount;
-            var randElement = rooms[rnd.Next(rooms.Count)];
-            map[pointx, pointy] = randElement;
-            rooms.Remove(randElement);
         }
 
         SpawnMap();
@@ -144,7 +136,6 @@ public class MapGenerator : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(1);
         GenerateRectMap();
     }
 }
