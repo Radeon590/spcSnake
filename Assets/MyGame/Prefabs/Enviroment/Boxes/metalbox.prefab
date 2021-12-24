@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1317670371798245886}
   - component: {fileID: 5388718972017866025}
+  - component: {fileID: 4002461915257299631}
+  - component: {fileID: -2754851909748536725}
   m_Layer: 0
   m_Name: metalbox
   m_TagString: Untagged
@@ -84,3 +86,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!136 &4002461915257299631
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618703235542220006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.48
+  m_Height: 0.96
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2754851909748536725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618703235542220006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8827fd5dac5ed4d8ba30a6ac974acce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HoverableEntityTypes: 01000000

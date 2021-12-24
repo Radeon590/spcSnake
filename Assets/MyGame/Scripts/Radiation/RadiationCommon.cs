@@ -24,6 +24,7 @@ public class RadiationCommon : MonoBehaviour
                 }
                 else if (VARIABLE.collider.gameObject.TryGetComponent(out radReciever))
                 {
+                    Debug.Log("rad");
                     reciever.RadiationValue += strength;
                 }
             }

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 788387718450065192}
   - component: {fileID: 1820640387880629445}
   - component: {fileID: 6322834739254766361}
+  - component: {fileID: -2465452622667421676}
+  - component: {fileID: 2856419700632199104}
   m_Layer: 0
   m_Name: coltop
   m_TagString: Untagged
@@ -111,3 +113,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16049254, y: 0.1729846}
   m_EdgeRadius: 0
+--- !u!61 &-2465452622667421676
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7585172038715126269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.96, y: 0.96}
+  m_EdgeRadius: 0
+--- !u!114 &2856419700632199104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7585172038715126269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8827fd5dac5ed4d8ba30a6ac974acce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HoverableEntityTypes: 01000000

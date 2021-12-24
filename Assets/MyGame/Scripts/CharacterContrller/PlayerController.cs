@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     {
         stateMachine = GameObject.FindGameObjectWithTag("GameController").GetComponent<StateMachine>();
         stateMachine.onPlayerTurn += StartPlayerTurn;
+        Debug.Log("startPlayerTurn");
         //
         playerMove.PlayerController = this;
         //

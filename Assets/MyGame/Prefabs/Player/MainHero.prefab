@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8625864719009887546}
   - component: {fileID: 3570485844312919192}
   - component: {fileID: 1092436008200029006}
+  - component: {fileID: -1618578495677837898}
   m_Layer: 0
   m_Name: MainHero
   m_TagString: Untagged
@@ -86,7 +87,7 @@ SpriteRenderer:
   m_Size: {x: 0.36, y: 0.86}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1886525719526727266
@@ -131,7 +132,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -188,3 +189,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-1618578495677837898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4374437461985523096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e241d2ad6cd84323b3002238fe52123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plauerSpritesList:
+  - {fileID: 21300000, guid: 28de3036d76af4445a3718eb2c19e7cc, type: 3}
+  - {fileID: 21300000, guid: 4d29f20ed69be47e7aec2ab3bcf31437, type: 3}
+  - {fileID: 21300000, guid: 11045c0e9860c4c41bf6723287e7e75e, type: 3}
+  - {fileID: 21300000, guid: 808d808ff37964e9a8941462a950e5a1, type: 3}
+  - {fileID: 21300000, guid: 83296598b135f4287b739854f23df3b1, type: 3}

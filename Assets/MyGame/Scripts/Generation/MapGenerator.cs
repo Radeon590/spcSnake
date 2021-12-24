@@ -9,6 +9,8 @@ using Random = System.Random;
 public class MapGenerator : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] private Transform mapContainer;
+    [Space]
     [SerializeField] private List< GameObject> rooms;
     [SerializeField] private GameObject firstRoom;
     [SerializeField] private  GameObject defaultRoom;
@@ -60,6 +62,7 @@ public class MapGenerator : MonoBehaviour
             {
                 var obj = Instantiate(map[i, j]);
                 obj.transform.position = new Vector2(i * obj.GetComponent<Room>().GetWidth(),j * obj.GetComponent<Room>().GetHeight());
+                obj.transform.SetParent(mapContainer, true);
             }
         }
     }
@@ -117,7 +120,7 @@ public class MapGenerator : MonoBehaviour
     }
     float timer = 3f;
     private bool f = true;
-    void GenerateRectMap()
+    public void GenerateRectMap()
     {
         for (var i = 0; i < xsize; ++i)
         {
@@ -130,11 +133,5 @@ public class MapGenerator : MonoBehaviour
         }
 
         SpawnMap();
-    }
-
-
-    void Start()
-    {
-        GenerateRectMap();
     }
 }
