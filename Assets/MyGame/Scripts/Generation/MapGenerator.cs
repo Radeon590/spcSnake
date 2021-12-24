@@ -15,36 +15,36 @@ public class MapGenerator : MonoBehaviour
     [SerializeField] private Room[,] map = new Room[10,10];
     private static Random rnd = new Random();
     private int _cursorPoint = rnd.Next(1, 9) * 10 + rnd.Next(1, 9);
-    private int _roomsCount = rnd.Next(2) + 4;
+    private int _roomsCount = rnd.Next(2) + 3;
 
-    private bool OnlyOneNeighboor(int cursor)
+    private bool OnlyOneNeighbor(int cursor)
     {
-        int neighboorCount = 0;
+        var neighborCount = 0;
         if (cursor % 10 > 0)
         {
             if (map[cursor / 10, cursor % 10 - 1] != defaultRoom)
-                ++neighboorCount;
+                ++neighborCount;
         }
 
         if (cursor % 10 < 9)
         {
             if (map[cursor / 10, cursor % 10 + 1] != defaultRoom)
-                ++neighboorCount;
+                ++neighborCount;
         }
         
         if (cursor / 10 < 9)
         {
             if (map[cursor / 10 + 1, cursor % 10] != defaultRoom)
-                ++neighboorCount;
+                ++neighborCount;
         }
         
         if (cursor / 10 > 0)
         {
             if (map[cursor / 10 - 1, cursor % 10] != defaultRoom)
-                ++neighboorCount;
+                ++neighborCount;
         }
 
-        if (neighboorCount > 1)
+        if (neighborCount > 1)
             return false;
         return true;
     }
@@ -61,21 +61,24 @@ public class MapGenerator : MonoBehaviour
         }
     }
     void Start()
-    {
-        for (int i = 0; i < 10; ++i)
+    {   
+        Debug.Log("1");
+        for (var i = 0; i < 10; ++i)
         {
-            for (int j = 0; j < 10; ++j)
+            for (var j = 0; j < 10; ++j)
             {
+                Debug.Log($"i:{i} j:{j}");
                 map[i, j] = defaultRoom;
             }
         }
         map[_cursorPoint/10, _cursorPoint%10] = firstRoom;
-        int n = 0;
+        var n = 0;
         while (_roomsCount > 0)
         {
             n = 0;
-            for (int i = 0; i < 4; ++i)
+            for (var i = 0; i < 4; ++i)
             {
+                Debug.Log($"i:{i} ");
                 if (++n > 2)
                 {
                     break;
