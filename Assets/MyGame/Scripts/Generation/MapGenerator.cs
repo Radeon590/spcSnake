@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -8,11 +9,11 @@ using Random = System.Random;
 public class MapGenerator : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private List<Room> rooms;
-    [SerializeField] private Room firstRoom;
-    [SerializeField] private Room defaultRoom;
+    [SerializeField] private List< GameObject> rooms;
+    [SerializeField] private GameObject firstRoom;
+    [SerializeField] private  GameObject defaultRoom;
 
-    [SerializeField] private Room[,] map = new Room[10,10];
+    [SerializeField] private GameObject[,] map = new GameObject[10,10];
     private static Random rnd = new Random();
     private int _cursorPoint = rnd.Next(1, 9) * 10 + rnd.Next(1, 9);
     private int _roomsCount = rnd.Next(2) + 3;
@@ -60,8 +61,9 @@ public class MapGenerator : MonoBehaviour
             }
         }
     }
-    void Start()
-    {   
+
+    public void GenerateMap()
+    {
         Debug.Log("1");
         for (var i = 0; i < 10; ++i)
         {
@@ -71,7 +73,7 @@ public class MapGenerator : MonoBehaviour
                 map[i, j] = defaultRoom;
             }
         }
-        map[_cursorPoint/10, _cursorPoint%10] = firstRoom;
+        /*map[_cursorPoint/10, _cursorPoint%10] = firstRoom;
         var n = 0;
         while (_roomsCount > 0)
         {
@@ -109,12 +111,22 @@ public class MapGenerator : MonoBehaviour
             }
         }
 
-        SpawnMap();
+        SpawnMap();*/
     }
+    
+    //Foer test:
+    private float timer = 4;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+        }
+        else
+        {
+            Debug.Log("StartGeneration");
+            GenerateMap();
+        }
     }
 }

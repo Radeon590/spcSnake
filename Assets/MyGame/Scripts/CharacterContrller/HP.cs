@@ -13,14 +13,14 @@ public class HP : MonoBehaviour
     {
         set
         {
-            if (_hp_level - value <= 0)
+            _hp_level -= value;
+            if (_hp_level <= 0)
             {
-                hpBar.value = 0;
+                hpBar.value = 0f;
                 stateMachine.CurrentState = TurnStates.death;
             }
             else
             {
-                _hp_level -= value;
                 hpBar.value = _hp_level;
             }
         }
@@ -30,5 +30,5 @@ public class HP : MonoBehaviour
         }
     }
 
-    private float _hp_level = 0;
+    private float _hp_level = 1;
 }

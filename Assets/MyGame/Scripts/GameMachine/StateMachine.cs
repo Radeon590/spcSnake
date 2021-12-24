@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StateMachine : MonoBehaviour
 {
@@ -31,7 +32,8 @@ public class StateMachine : MonoBehaviour
                     onEnemyTurn.Invoke();
                     break;
                 case TurnStates.death:
-                    onDeath.Invoke();
+                    SceneManager.LoadScene("radiationScene");
+                    //onDeath.Invoke();
                     break;
             }
             

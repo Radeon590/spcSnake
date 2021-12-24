@@ -35,7 +35,8 @@ public class Logic_NPC : MonoBehaviour
 
     private void Awake()
     {
-        GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemiesMachine>().LogicNpc.Add(this);
+        EnemiesMachine = GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemiesMachine>(); 
+        EnemiesMachine.LogicNpc.Add(this);
         //
         _moveNpc = GetComponent<Move_NPC>();
     }
@@ -85,7 +86,9 @@ public class Logic_NPC : MonoBehaviour
 
     public void OnEnemyArrived_toPlayer()
     {
-        GameObject.Find("PlayerControllers").GetComponent<HP>().HP_Level -= 0.5f;
+        Debug.Log("arrivedToPLayer");
+        HP hp = GameObject.Find("PlayerControllers").GetComponent<HP>();
+        hp.HP_Level = 0.5f;
         EndTurn();
     }
     //
