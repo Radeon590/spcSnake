@@ -159,7 +159,7 @@ MonoBehaviour:
   - {fileID: 2498313211395812310, guid: a554542e617364df0bea8e0c3c065447, type: 3}
   - {fileID: 4223641350490484991, guid: f3a5d0ed3cfd640738934896202531b3, type: 3}
   firstRoom: {fileID: 7435509302336058061, guid: c9bae5634f09243838922714e5b3f5b5, type: 3}
-  defaultRoom: {fileID: 5618703300744322961, guid: 4bbb1e7d4d0df49299c4b3081c2e6d7d, type: 3}
+  defaultRoom: {fileID: 7435509302336058061, guid: c9bae5634f09243838922714e5b3f5b5, type: 3}
 --- !u!4 &755875871
 Transform:
   m_ObjectHideFlags: 0

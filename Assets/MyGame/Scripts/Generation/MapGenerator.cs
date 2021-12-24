@@ -13,10 +13,12 @@ public class MapGenerator : MonoBehaviour
     [SerializeField] private GameObject firstRoom;
     [SerializeField] private  GameObject defaultRoom;
 
-    [SerializeField] private GameObject[,] map = new GameObject[10,10];
+    [SerializeField] private GameObject[,] map = new GameObject[4,4];
+    private int xsize = 3;
+    private int ysize = 3;
     private static Random rnd = new Random();
     private int _cursorPoint = rnd.Next(1, 9) * 10 + rnd.Next(1, 9);
-    private int _roomsCount = rnd.Next(2) + 3;
+    private int _roomsCount = rnd.Next(2) + 4;
 
     private bool OnlyOneNeighbor(int cursor)
     {
@@ -52,12 +54,12 @@ public class MapGenerator : MonoBehaviour
 
     void SpawnMap()
     {
-        for (var i = 0; i < 10; ++i)
+        for (var i = 0; i < xsize; ++i)
         {
-            for (var j = 0; j < 10; ++j)
+            for (var j = 0; j < ysize; ++j)
             {
                 var obj = Instantiate(map[i, j]);
-                obj.transform.position = new Vector2(1f * obj.GetComponent<Room>().GetWidth(),1f * obj.GetComponent<Room>().GetHeight());
+                obj.transform.position = new Vector2(i * obj.GetComponent<Room>().GetWidth(),j * obj.GetComponent<Room>().GetHeight());
             }
         }
     }
@@ -73,18 +75,18 @@ public class MapGenerator : MonoBehaviour
                 map[i, j] = defaultRoom;
             }
         }
-        /*map[_cursorPoint/10, _cursorPoint%10] = firstRoom;
+        map[_cursorPoint/10, _cursorPoint%10] = firstRoom;
         var n = 0;
         while (_roomsCount > 0)
         {
-            n = 0;
             for (var i = 0; i < 4; ++i)
             {
-                Debug.Log($"i:{i} ");
-                if (++n > 2)
+                Debug.Log($"i:{_roomsCount} ");
+                if (++n%3==0)
                 {
-                    break;
+                    continue;
                 }
+                
                 if (_cursorPoint / 10 < 9 && i == 0)
                 {
                     _cursorPoint += 10;
@@ -111,22 +113,38 @@ public class MapGenerator : MonoBehaviour
             }
         }
 
-        SpawnMap();*/
+        SpawnMap();
     }
-    
-    //Foer test:
-    private float timer = 4;
-
-    private void Update()
+    float timer = 3f;
+    private bool f = true;
+    void GenerateRectMap()
     {
-        if (timer > 0)
+        for (var i = 0; i < xsize; ++i)
         {
-            timer -= Time.deltaTime;
+            for (var j = 0; j < ysize; ++j)
+            {
+                Debug.Log($"i:{i} j:{j}");
+                map[i, j] = defaultRoom;
+            }
         }
-        else
+        while (_roomsCount > 0)
         {
-            Debug.Log("StartGeneration");
-            GenerateMap();
+            var pointx = rnd.Next(xsize);
+            var pointy = rnd.Next(ysize);
+            if (map[pointx, pointy] != defaultRoom) continue;
+            --_roomsCount;
+            var randElement = rooms[rnd.Next(rooms.Count)];
+            map[pointx, pointy] = randElement;
+            rooms.Remove(randElement);
         }
+
+        SpawnMap();
+    }
+
+
+    void Start()
+    {
+        Debug.Log(1);
+        GenerateRectMap();
     }
 }
