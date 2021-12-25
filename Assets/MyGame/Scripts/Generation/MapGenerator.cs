@@ -61,7 +61,7 @@ public class MapGenerator : MonoBehaviour
             for (var j = 0; j < ysize; ++j)
             {
                 var obj = Instantiate(map[i, j]);
-                obj.transform.position = new Vector2(i * obj.GetComponent<Room>().GetWidth(),j * obj.GetComponent<Room>().GetHeight());
+                obj.transform.position = new Vector3(i * obj.GetComponent<Room>().GetWidth(),j * obj.GetComponent<Room>().GetHeight(), 0);
                 obj.transform.SetParent(mapContainer, true);
             }
         }

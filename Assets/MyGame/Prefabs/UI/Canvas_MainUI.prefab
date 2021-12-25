@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3694056230141978307}
   - component: {fileID: 3694056230141978316}
   - component: {fileID: 3694056230141978317}
+  - component: {fileID: 3884953439835431707}
   m_Layer: 5
   m_Name: ActionPanel
   m_TagString: Untagged
@@ -118,6 +119,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ecc18a61b0f449ba9f0138b437a6341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseController: {fileID: 0}
+--- !u!114 &3884953439835431707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3694056230141978319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc2823ea1a7442cda4cfd60f38512d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mouseController: {fileID: 0}
@@ -287,7 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -447,7 +461,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 654b8e52d437549aba2e63642227a0b3, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -590,6 +604,24 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2709762733745866663, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
   m_PrefabInstance: {fileID: 1646327659277595903}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3694056230674215769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2709762733745866662, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
+  m_PrefabInstance: {fileID: 1646327659277595903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134607298565093916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3694056230674215769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc2823ea1a7442cda4cfd60f38512d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseController: {fileID: 0}
 --- !u!1001 &3694056229841264205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -724,6 +756,24 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2709762733745866663, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
   m_PrefabInstance: {fileID: 3694056229841264205}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1646327660072294891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2709762733745866662, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
+  m_PrefabInstance: {fileID: 3694056229841264205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4425570561772542993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646327660072294891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc2823ea1a7442cda4cfd60f38512d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseController: {fileID: 0}
 --- !u!1001 &3694056229922613179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -846,6 +896,18 @@ PrefabInstance:
     - target: {fileID: 2352470960868836041, guid: d74aab9b42f184bb695b33fccd5ea7a1, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947487302799155329, guid: d74aab9b42f184bb695b33fccd5ea7a1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 18.4032
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947487302799155329, guid: d74aab9b42f184bb695b33fccd5ea7a1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947487302799155329, guid: d74aab9b42f184bb695b33fccd5ea7a1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.1615
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d74aab9b42f184bb695b33fccd5ea7a1, type: 3}
@@ -996,6 +1058,24 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2709762733745866663, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
   m_PrefabInstance: {fileID: 3694056230721482477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1646327659342031179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2709762733745866662, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
+  m_PrefabInstance: {fileID: 3694056230721482477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1312298931007677284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646327659342031179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc2823ea1a7442cda4cfd60f38512d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseController: {fileID: 0}
 --- !u!1001 &3694056230870739382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1125,6 +1205,24 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 86bd0755b078c46e7a3fae030df680c6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
+--- !u!1 &1646327659491094032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2709762733745866662, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}
+  m_PrefabInstance: {fileID: 3694056230870739382}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5562640951841259512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646327659491094032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc2823ea1a7442cda4cfd60f38512d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseController: {fileID: 0}
 --- !u!224 &1646327659491094033 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2709762733745866663, guid: 570e43f1ce3034692939ee9b51c2603c, type: 3}

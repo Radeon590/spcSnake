@@ -6,6 +6,34 @@ using UnityEngine;
 
 public class MouseController : MonoBehaviour
 {
+    [HideInInspector]
+    public bool FocusedOnUI
+    {
+        set
+        {
+            if (value == true)
+            {
+                lastCursor = CurrentCursor;
+                CurrentCursor = HoverableEntityType.basic;
+            }
+            else
+            {
+                CurrentCursor = lastCursor;
+            }
+            
+            _focusedOnUI = value;
+        }
+
+        get
+        {
+            return _focusedOnUI;
+        }
+    }
+
+    private bool _focusedOnUI = false;
+
+    private HoverableEntityType lastCursor;
+    //
     [SerializeField] private Sprite[] cursorSprites; //назначать сторого в том порядке как спрайты идут в enum HoverableTypes
     private Vector2 _mousePos;
     
@@ -60,28 +88,31 @@ public class MouseController : MonoBehaviour
     {
         #region Проверкана на изменение курсора
 
-        if (IsMouseMoved())
+        if (!_focusedOnUI)
         {
-            HoverableEntity entity;
-            GameObject objectUnderMouse = GetObjectUnderMouse();
-            if (objectUnderMouse != null)
+            if (IsMouseMoved())
             {
-                objectUnderMouse.TryGetComponent(out entity);
-                if (entity != null)
+                HoverableEntity entity;
+                GameObject objectUnderMouse = GetObjectUnderMouse();
+                if (objectUnderMouse != null)
                 {
-                    if (entity.HoverableEntityTypes.Contains(currentMouseMode))
+                    objectUnderMouse.TryGetComponent(out entity);
+                    if (entity != null)
                     {
-                        CurrentCursor = currentMouseMode;
-                    }
-                    else
-                    {
-                        CurrentCursor = HoverableEntityType.basic;
+                        if (entity.HoverableEntityTypes.Contains(currentMouseMode))
+                        {
+                            CurrentCursor = currentMouseMode;
+                        }
+                        else
+                        {
+                            CurrentCursor = HoverableEntityType.basic;
+                        }
                     }
                 }
-            }
-            else
-            {
-                CurrentCursor = HoverableEntityType.basic;
+                else
+                {
+                    CurrentCursor = HoverableEntityType.basic;
+                }
             }
         }
 

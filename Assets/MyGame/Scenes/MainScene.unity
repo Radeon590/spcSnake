@@ -1053,6 +1053,10 @@ PrefabInstance:
       value: Main Camera
       objectReference: {fileID: 0}
     - target: {fileID: 7875185903564258658, guid: 277f3f60b9c874c1c981dac1936f4675, type: 3}
+      propertyPath: cameraDelta_y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875185903564258658, guid: 277f3f60b9c874c1c981dac1936f4675, type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 466921882}
