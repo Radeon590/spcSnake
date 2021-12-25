@@ -128,7 +128,7 @@ public class MapGenerator : MonoBehaviour
             {
                 var randElement = rooms[rnd.Next(rooms.Count)];
                 map[i, j] = randElement;
-                //rooms.Remove(randElement);//если сделать комнаты больше 10, то раскоментить надо эту строку
+                rooms.Remove(randElement);//если сделать комнаты больше 10, то раскоментить надо эту строку
             }
         }
 
