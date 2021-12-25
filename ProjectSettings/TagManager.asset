@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerController
   - Enemy
+  - music
   layers:
   - Default
   - TransparentFX
