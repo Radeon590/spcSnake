@@ -86,6 +86,8 @@ public class MouseController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
+        
         #region Проверкана на изменение курсора
 
         if (!_focusedOnUI)
@@ -153,9 +155,26 @@ public class MouseController : MonoBehaviour
         //
         return result;
     }
+    //
+    /*private bool _clicked = false;
 
-    public void ClickPos()
+    public bool Clicked
     {
-        
+        get
+        {
+            return _clicked;
+        }
     }
+
+    private void Update()
+    {
+        #region Проверка на клик
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            _clicked = true;
+        }
+
+        #endregion
+    }*/
 }

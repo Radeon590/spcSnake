@@ -128,7 +128,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5540568041952227331, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
   m_PrefabInstance: {fileID: 1367952178}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1367952179}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf58caee5fa1c4607b6de55bfab5d379, type: 3}
@@ -796,6 +796,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+--- !u!1 &1367952179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5540568041952227328, guid: 10e78d536c4ce4ed59c984e7663e2419, type: 3}
+  m_PrefabInstance: {fileID: 1367952178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1367952180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367952179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31824580d0c3f4b0fb09a75bd2b8c616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseController: {fileID: 70042295}
 --- !u!1 &1383882447 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3694056230766539461, guid: 0a391df29be4a4f369aeb6c40aa58d47, type: 3}

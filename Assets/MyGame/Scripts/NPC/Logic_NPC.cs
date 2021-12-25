@@ -33,6 +33,8 @@ public class Logic_NPC : MonoBehaviour
     
     private int _movementDirection = 0;
 
+    private bool isMoving;
+
     private void Awake()
     {
         EnemiesMachine = GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemiesMachine>(); 
@@ -95,5 +97,20 @@ public class Logic_NPC : MonoBehaviour
     public void EndTurn()
     {
         EnemiesMachine.MovedEnemies++;
+    }
+
+    private void FixedUpdate()
+    {
+        if (isMoving)
+        {
+            if (GetComponent<PlayerDetector>().IsPlayerDetected())
+            {
+                PlayerDetectedMovement(GameObject.FindGameObjectWithTag("Player").transform.position);
+            }
+            else
+            {
+                StandartMovement();
+            }
+        }
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Move_NPC : MonoBehaviour
 {
-    [SerializeField] private float speed = 0.9f;
+    [SerializeField] private float speed = 0.6f;
     //
     private Vector2 CurrentTarget = Vector2.zero;
 
@@ -40,6 +40,7 @@ public class Move_NPC : MonoBehaviour
 
     private void Move()
     {
+        staminaValue -= Time.deltaTime * 0.4f;
         timer += Time.deltaTime * speed;
         transform.position = Vector2.Lerp(lastPos, CurrentTarget, timer);
         if (timer >= 1)

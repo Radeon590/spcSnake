@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 8428449993993154880}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d5d1c203473e489fa0530661bda252f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectDistance: 4
+  detectDistance: 2
 --- !u!114 &8740842716397540231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb43dd5016a74defa354108f0c405ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radiationSource_pref: {fileID: 0}
+  radiationSource_pref: {fileID: 862834087744926939, guid: e350d111afa524ecea4500118734f9a6, type: 3}
   radiationBar: {fileID: 0}
   radHealingSpeed: 20
 --- !u!61 &8740842716397540228
