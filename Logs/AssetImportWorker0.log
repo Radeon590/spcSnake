@@ -1,23 +1,30 @@
+Unity Editor version:    2021.2.3f1 (32358a8527b4)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22000.376; Version 2009; 64bit' Language: 'ru' Physical Memory: 16320 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
+/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Git/spcSnake
+/Users/a123/Desktop/Unity/Projects/spcSnake
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54234
-Successfully changed project path to: D:/Git/spcSnake
-D:/Git/spcSnake
+52262
+Successfully changed project path to: /Users/a123/Desktop/Unity/Projects/spcSnake
+/Users/a123/Desktop/Unity/Projects/spcSnake
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,593 +54,580 @@ D:/Git/spcSnake
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 114.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 76.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Git/spcSnake/Assets
+[Subsystems] Discovering subsystems at path /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/a123/Desktop/Unity/Projects/spcSnake/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 5500 XT (ID=0x7340)
-    Vendor:   ATI
-    VRAM:     8151 MB
-    Driver:   30.0.13033.5003
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Mono path[0] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56850
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005402 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.80 ms, found 4 plugins.
+Register platform support module: /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001469 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 78.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.647 seconds
+- Completed reload, in  0.432 seconds
 Domain Reload Profiling:
-	ReloadAssembly (647ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (433ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (487ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (306ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (288ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (191ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003772 seconds.
+Registered in 0.002070 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Git\spcSnake\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Git\spcSnake\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.10 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 77.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.509 seconds
+- Completed reload, in  1.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1511ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (1630ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1176ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1454ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (160ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (625ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (1109ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (408ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (947ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Launching external process: /Users/a123/Desktop/Unity/Editors/2021.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.27 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3925 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (58.0 KB). Loaded Objects now: 4380.
-Memory consumption went from 150.1 MB to 150.0 MB.
-Total: 3.726800 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.114900 ms MarkObjects: 3.176800 ms  DeleteObjects: 0.079800 ms)
+Unloading 3926 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (45.3 KB). Loaded Objects now: 4386.
+Memory consumption went from 266.5 MB to 266.5 MB.
+Total: 2.600666 ms (FindLiveObjects: 0.145542 ms CreateObjectMapping: 0.049750 ms MarkObjects: 2.336250 ms  DeleteObjects: 0.068625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 973.069997 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(9569d552f4f4a494ea4d772dcc0c2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(9569d552f4f4a494ea4d772dcc0c2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ddfa9a9b201ef4c300fae4a5f3aeec') in 0.027784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.876018 seconds.
-  path: Assets/MyGame
-  artifactKey: Guid(1078c5a39adc8480ca16a394c2723aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame using Guid(1078c5a39adc8480ca16a394c2723aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8fb2e7febbe35220625f277b2677c8') in 0.008662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.109770 seconds.
-  path: Assets/MyGame/Scenes
-  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc551c28631bb03ca9b61942ea6fe31a') in 0.007477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.599879 seconds.
-  path: Assets/MyGame/Prefabs
-  artifactKey: Guid(916cb1bacc8aa954abc254c38468f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs using Guid(916cb1bacc8aa954abc254c38468f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe5d9664d703c38d9036511c659c0ca') in 0.007600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.300376 seconds.
-  path: Assets/MyGame/Prefabs/Enemy.prefab
-  artifactKey: Guid(46cde0ffce0d740a98a2ade7c3e88528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enemy.prefab using Guid(46cde0ffce0d740a98a2ade7c3e88528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2bb083655f1ad0a342d0c5126dbf35') in 0.086798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.383698 seconds.
-  path: Assets/MyGame/Prefabs/Rooms
-  artifactKey: Guid(69c1318432cc148a79bdda83af2df076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms using Guid(69c1318432cc148a79bdda83af2df076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e4ad73e8d68fce58f6273b88374f95') in 0.008862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046308 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/DefaultRoom.prefab
-  artifactKey: Guid(4bbb1e7d4d0df49299c4b3081c2e6d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/DefaultRoom.prefab using Guid(4bbb1e7d4d0df49299c4b3081c2e6d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f9f55e987b1b0b0b8294f3b13f435f') in 0.025048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/StartRoom.prefab
-  artifactKey: Guid(c9bae5634f09243838922714e5b3f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/StartRoom.prefab using Guid(c9bae5634f09243838922714e5b3f5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a9932f71c4801e23e0b97f23f7c263') in 0.030523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/Room5.prefab
-  artifactKey: Guid(f3a5d0ed3cfd640738934896202531b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/Room5.prefab using Guid(f3a5d0ed3cfd640738934896202531b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa2f0e43f23127caf08e3d78d8548d3') in 0.028069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/Room2.prefab
-  artifactKey: Guid(7102206107aa4495da13ab0a43126579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/Room2.prefab using Guid(7102206107aa4495da13ab0a43126579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7dcb08769400e778043fd92aca5bee') in 0.023394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.632403 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment
-  artifactKey: Guid(5abaa6bcbf8c1442c8380c31065230e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment using Guid(5abaa6bcbf8c1442c8380c31065230e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc05e8a2ebd0392124ab216e39acb32') in 0.007322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.026064 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Boxes
-  artifactKey: Guid(7764eff5a11304347987bfb6e0fc2c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Boxes using Guid(7764eff5a11304347987bfb6e0fc2c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f8f6092ba15dd8f5d3152cd7d33e32') in 0.006514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062175 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Boxes/bigdaddy_metalbox.prefab
-  artifactKey: Guid(0f779ee548a1e4c7ea209f5e5e27d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Boxes/bigdaddy_metalbox.prefab using Guid(0f779ee548a1e4c7ea209f5e5e27d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae757fbcaf9a6ff1abc0c033eb5a424') in 0.013217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Boxes/metalbox.prefab
-  artifactKey: Guid(8161823b3f9ea4bbd8a9397474bb5240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Boxes/metalbox.prefab using Guid(8161823b3f9ea4bbd8a9397474bb5240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b60edfc814f9159fa057b2b011b2ae') in 0.014192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.434316 seconds.
-  path: Assets/MyGame/Fonts/Diary of an 8-bit mage.otf
-  artifactKey: Guid(654b8e52d437549aba2e63642227a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Fonts/Diary of an 8-bit mage.otf using Guid(654b8e52d437549aba2e63642227a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf5d84a442a768e8ebe8cb6bf07d78e') in 0.056164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MyGame/Sprites/Publication/Diary of an 8-bit mage.otf
-  artifactKey: Guid(1563924fcc41a44f2adb16ae748215c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Sprites/Publication/Diary of an 8-bit mage.otf using Guid(1563924fcc41a44f2adb16ae748215c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8ee4ce0791e32db1e0bb9aca344798') in 0.014115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MyGame/Fonts/VCR_OSD_MONO_1.001.ttf
-  artifactKey: Guid(b757c78404d1a4f65a803ad1fe690bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Fonts/VCR_OSD_MONO_1.001.ttf using Guid(b757c78404d1a4f65a803ad1fe690bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6943936a34397f2f723b0dc3eecffc8c') in 0.017881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.873985 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Boxes/cardboardbox.prefab
-  artifactKey: Guid(fab6f82ef9e2543e4a10682e89673fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Boxes/cardboardbox.prefab using Guid(fab6f82ef9e2543e4a10682e89673fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5515e92af5f5faae1447ccf8f67889aa') in 0.016336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001836 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Boxes/bigdaddy_metalbox.prefab
-  artifactKey: Guid(0f779ee548a1e4c7ea209f5e5e27d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Boxes/bigdaddy_metalbox.prefab using Guid(0f779ee548a1e4c7ea209f5e5e27d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec23d3b24e40f344d86649ed9651a68') in 0.012859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Boxes/minicbbox.prefab
-  artifactKey: Guid(e4d98868e29c043f5bfb5b0693603852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Boxes/minicbbox.prefab using Guid(e4d98868e29c043f5bfb5b0693603852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7885fe0929c73bd7e2da92325c8c2f7e') in 0.013996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.751673 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture
-  artifactKey: Guid(0b27ac5570d6e482ea0900e04c3ddf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture using Guid(0b27ac5570d6e482ea0900e04c3ddf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bbfb94438f40ff070d8b93df804634') in 0.006910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.185960 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture/BigPuf.prefab
-  artifactKey: Guid(d37b35d6a994c422caf2570e855da396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture/BigPuf.prefab using Guid(d37b35d6a994c422caf2570e855da396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbefdf19020b33dd7e1bb0d943f4a7f7') in 0.012372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture/MiniGlassTable.prefab
-  artifactKey: Guid(17bc397b5c59644ecafef113b5d582e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture/MiniGlassTable.prefab using Guid(17bc397b5c59644ecafef113b5d582e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc1b438569085bfc2ce2a9259628bf7') in 0.013123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture/Pufik.prefab
-  artifactKey: Guid(fd9c06f21950a47c4a3d6dc4d23c6014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture/Pufik.prefab using Guid(fd9c06f21950a47c4a3d6dc4d23c6014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc36d1118ba22c9dbda9acaeaa082f') in 0.013114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.953676 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture/GlassTable.prefab
-  artifactKey: Guid(836b5f6755d1545b5bad87d584a0d09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture/GlassTable.prefab using Guid(836b5f6755d1545b5bad87d584a0d09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc15898def6b8fa623b8ebbeba84085a') in 0.013548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002401 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture/BigPuf.prefab
-  artifactKey: Guid(d37b35d6a994c422caf2570e855da396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture/BigPuf.prefab using Guid(d37b35d6a994c422caf2570e855da396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e714cba8d91f457507b4fcc2e0c1f1') in 0.012765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture/MiniGlassTable.prefab
-  artifactKey: Guid(17bc397b5c59644ecafef113b5d582e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture/MiniGlassTable.prefab using Guid(17bc397b5c59644ecafef113b5d582e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf7018d8d3d2b9ae2d786ab39e5ccf0') in 0.014170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Furniture/OfficeTable.prefab
-  artifactKey: Guid(19055ac199a574a40a6c0885e8738877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Furniture/OfficeTable.prefab using Guid(19055ac199a574a40a6c0885e8738877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63593fc165239bd426f8fcfe94a466f7') in 0.012864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.207080 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants
-  artifactKey: Guid(b1efc7125f07b4b5887cda83c69f5b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants using Guid(b1efc7125f07b4b5887cda83c69f5b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9874920af43d075cc6e17fe3fc2b3331') in 0.007817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055345 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/1.prefab
-  artifactKey: Guid(c08887cf9dc6643fca0e6977df98960a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/1.prefab using Guid(c08887cf9dc6643fca0e6977df98960a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18e3f7e5890f2e798d4fe8fcf3d908c') in 0.012018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/3.prefab
-  artifactKey: Guid(0cea2b67977954f6898c33cde6a4d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/3.prefab using Guid(0cea2b67977954f6898c33cde6a4d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8664e81e9f34c2531a15bec541168c97') in 0.015612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/7.prefab
-  artifactKey: Guid(fb1c50e1c442b449e90bd558c3b689a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/7.prefab using Guid(fb1c50e1c442b449e90bd558c3b689a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d23b0d78fd709fa00e14ad42a1b6dee') in 0.012994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/8.prefab
-  artifactKey: Guid(e5d4c9a4322c24205a5df92258a5424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/8.prefab using Guid(e5d4c9a4322c24205a5df92258a5424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff45ae27938821aee0c191d62d8b148f') in 0.013681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.898688 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/4.prefab
-  artifactKey: Guid(fd8fe760e1dac4a879f9e904f78840df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/4.prefab using Guid(fd8fe760e1dac4a879f9e904f78840df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d2cc7b5008823a233ec831aac6e953') in 0.012290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010582 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/1.prefab
-  artifactKey: Guid(c08887cf9dc6643fca0e6977df98960a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/1.prefab using Guid(c08887cf9dc6643fca0e6977df98960a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a15ecee7962930141559497d6a500f') in 0.012893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/3.prefab
-  artifactKey: Guid(0cea2b67977954f6898c33cde6a4d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/3.prefab using Guid(0cea2b67977954f6898c33cde6a4d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd7c6e0ab1c7d9fafa57878140d5be4') in 0.013679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/6.prefab
-  artifactKey: Guid(2ec6420edc0bf43d59cde11a53817a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/6.prefab using Guid(2ec6420edc0bf43d59cde11a53817a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c3b3744c5cd3ca3a193db00e3152e5') in 0.013779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MyGame/Prefabs/Enviroment/Plants/5.prefab
-  artifactKey: Guid(af9eefeecf7fa4443afd2736d2290540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enviroment/Plants/5.prefab using Guid(af9eefeecf7fa4443afd2736d2290540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25999b020076d1e7f86251a6dec5da2') in 0.012682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.270709 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding
-  artifactKey: Guid(0e97b1463fb004cd0a53c7c8cdc18e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding using Guid(0e97b1463fb004cd0a53c7c8cdc18e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc5e5380a3171c425cac6fc4785e71') in 0.008518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.841952 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams
-  artifactKey: Guid(779841478fe4f4a5bbfe117cdbe999ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams using Guid(779841478fe4f4a5bbfe117cdbe999ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532e7ac8ed3466c6a3df7a44fc319634') in 0.007339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.068403 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/beam.prefab
-  artifactKey: Guid(a91270fcc02cb46ae938105a815917a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/beam.prefab using Guid(a91270fcc02cb46ae938105a815917a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc79e3fc7992900f234beca86a190f8') in 0.012461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/xxsbeam.prefab
-  artifactKey: Guid(c8bd743f1cc0f4c77bb6754790ee9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/xxsbeam.prefab using Guid(c8bd743f1cc0f4c77bb6754790ee9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0aeca7317220e02adc745041ec9f330') in 0.013079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/sbeam.prefab
-  artifactKey: Guid(a622ef6ece21a406c9a33c846837352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/sbeam.prefab using Guid(a622ef6ece21a406c9a33c846837352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26405337fa1bb3d15d4d2094fa37a43f') in 0.013069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/lbeam.prefab
-  artifactKey: Guid(3e4ea0cae9a204cb1aad50c521382875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/lbeam.prefab using Guid(3e4ea0cae9a204cb1aad50c521382875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f78b5a67ea764dec6c6b7a25a93ea6') in 0.012049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.518912 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/beam.prefab
-  artifactKey: Guid(a91270fcc02cb46ae938105a815917a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/beam.prefab using Guid(a91270fcc02cb46ae938105a815917a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465441408638fe45a9e931f4e1ee7490') in 0.012373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003912 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/coltop.prefab
-  artifactKey: Guid(30500918d28214962a58d98246f66d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/coltop.prefab using Guid(30500918d28214962a58d98246f66d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ace180dc90e8b9bbd2f61ca6508dcb') in 0.012939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/xxsbeam.prefab
-  artifactKey: Guid(c8bd743f1cc0f4c77bb6754790ee9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/xxsbeam.prefab using Guid(c8bd743f1cc0f4c77bb6754790ee9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faef933d353356e21305a5f77f5e420f') in 0.014044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Beams/sbeam.prefab
-  artifactKey: Guid(a622ef6ece21a406c9a33c846837352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Beams/sbeam.prefab using Guid(a622ef6ece21a406c9a33c846837352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124896ac1335a294e0718da4cfb07d0a') in 0.012824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.958994 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor
-  artifactKey: Guid(9e97e8a396c98437d9cb6ad34b338c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor using Guid(9e97e8a396c98437d9cb6ad34b338c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9f605d83a0b1372b4c7cf114f8bd44') in 0.007128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050329 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/AngClearMonoFloor.prefab
-  artifactKey: Guid(c3ba6274558404b8494cdf579f076e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/AngClearMonoFloor.prefab using Guid(c3ba6274558404b8494cdf579f076e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ea2ee88c291c9c34dc9bb05ce6902a') in 0.012304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/StandartWall.prefab
-  artifactKey: Guid(534ab386ecc3e48a083630f59d313b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/StandartWall.prefab using Guid(534ab386ecc3e48a083630f59d313b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bedd6ca676562eb08c99e570c6a66d') in 0.013511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/col.prefab
-  artifactKey: Guid(1a0e7e7860d1f497297cc874c232794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/col.prefab using Guid(1a0e7e7860d1f497297cc874c232794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68da6617e68c120e3bc2816d68fa2dca') in 0.014264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/Floor.prefab
-  artifactKey: Guid(728e5474f6d6f4788b1544af2440e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/Floor.prefab using Guid(728e5474f6d6f4788b1544af2440e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db776377c939d498c7b5b8ddcccf7b28') in 0.012786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.858966 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/BokClearMonoFloor.prefab
-  artifactKey: Guid(850bc9193662641abbb4fd024a600de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/BokClearMonoFloor.prefab using Guid(850bc9193662641abbb4fd024a600de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbbdbc4e2320b249b6a0322c88ce006') in 0.021164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/ClearMonoFloor.prefab
-  artifactKey: Guid(c93f0bedf182f43928c13fdf149c2ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/ClearMonoFloor.prefab using Guid(c93f0bedf182f43928c13fdf149c2ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b8d6ade490bc75d78d7db89e2bae3b') in 0.013326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/col.prefab
-  artifactKey: Guid(1a0e7e7860d1f497297cc874c232794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/col.prefab using Guid(1a0e7e7860d1f497297cc874c232794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d943e1db6ef7036b6ecf77ee0c3cdd') in 0.014306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Floor/idkFloor.prefab
-  artifactKey: Guid(59db80d0c6a2749678e5132cecdd8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Floor/idkFloor.prefab using Guid(59db80d0c6a2749678e5132cecdd8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66e498ae692963e1a44dec998f4e10a') in 0.013134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.017215 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Wall
-  artifactKey: Guid(80e729736c6a84110a9812cbe552586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Wall using Guid(80e729736c6a84110a9812cbe552586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2a0899397ca9513b1b6cf3483748a2') in 0.006626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.057555 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Wall/wall96.prefab
-  artifactKey: Guid(e03881e09d7b143118a34e790d04be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Wall/wall96.prefab using Guid(e03881e09d7b143118a34e790d04be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4217f05972a5ee2d781bba02e6b80319') in 0.012083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.132118 seconds.
-  path: Assets/MyGame/Prefabs/LevelBuilding/Wall/wall96.prefab
-  artifactKey: Guid(e03881e09d7b143118a34e790d04be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/LevelBuilding/Wall/wall96.prefab using Guid(e03881e09d7b143118a34e790d04be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080b6fecf165cdd77679d7ccd7e0e950') in 0.017894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.573457 seconds.
-  path: Assets/MyGame/Prefabs/Lighting
-  artifactKey: Guid(116773e5aec0149ab8d7ba9e49f941f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Lighting using Guid(116773e5aec0149ab8d7ba9e49f941f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad70acc41236212421b80224ee8f917') in 0.006733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.075132 seconds.
-  path: Assets/MyGame/Prefabs/Lighting/GlobalLight.prefab
-  artifactKey: Guid(959c78b14c3a640508346c75219bc620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Lighting/GlobalLight.prefab using Guid(959c78b14c3a640508346c75219bc620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e375d2e8aac5d7f18b97aa8a5c902d66') in 0.008650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.503020 seconds.
-  path: Assets/MyGame/Prefabs/Player
-  artifactKey: Guid(561a5b93c28984c94b6210a92e69c011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Player using Guid(561a5b93c28984c94b6210a92e69c011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518a38d3c2350c0778f01d7398bdde4b') in 0.006445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.072983 seconds.
+  Time since last request: 25644.497108 seconds.
   path: Assets/MyGame/Prefabs/Player/MainHero.prefab
   artifactKey: Guid(931b1751a1ad84f32870f48891fc315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Player/MainHero.prefab using Guid(931b1751a1ad84f32870f48891fc315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509b6baa943c81a3e5b23a6458101097') in 0.013514 seconds 
+Start importing Assets/MyGame/Prefabs/Player/MainHero.prefab using Guid(931b1751a1ad84f32870f48891fc315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c733652a1c04e0d0020f5044376962c7') in 0.259669 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.646974 seconds.
-  path: Assets/MyGame/Prefabs/Player/MainHero.prefab
-  artifactKey: Guid(931b1751a1ad84f32870f48891fc315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Player/MainHero.prefab using Guid(931b1751a1ad84f32870f48891fc315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd500fc36ab6febae182489d20993d51a') in 0.004524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.794330 seconds.
-  path: Assets/MyGame/Prefabs/Radiation
-  artifactKey: Guid(3dbef7214eb4f479b986e22d74ddd75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Radiation using Guid(3dbef7214eb4f479b986e22d74ddd75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c56df61e1b4ff82bef4b13d8d3ecc') in 0.006823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055834 seconds.
-  path: Assets/MyGame/Prefabs/Radiation/RadiationBlocker.prefab
-  artifactKey: Guid(72e288f8e39af435bbc3d4282b3a8189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Radiation/RadiationBlocker.prefab using Guid(72e288f8e39af435bbc3d4282b3a8189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3203618095e4d58093d2bb39b9cb0f9') in 0.020670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MyGame/Prefabs/Radiation/RadiationSource.prefab
-  artifactKey: Guid(e350d111afa524ecea4500118734f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Radiation/RadiationSource.prefab using Guid(e350d111afa524ecea4500118734f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e300a5e026abd0a1869ef48cde37eae') in 0.018039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.545300 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/DefaultRoom.prefab
-  artifactKey: Guid(4bbb1e7d4d0df49299c4b3081c2e6d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/DefaultRoom.prefab using Guid(4bbb1e7d4d0df49299c4b3081c2e6d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc61e86a2feb0a90aad59a610142d72') in 0.060117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/Room4.prefab
-  artifactKey: Guid(a554542e617364df0bea8e0c3c065447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/Room4.prefab using Guid(a554542e617364df0bea8e0c3c065447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6502cc2cc701efab3b445cb4356aaf07') in 0.021110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/Room3.prefab
-  artifactKey: Guid(c5d1c96e2f8fc4a2e86599a408606ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/Room3.prefab using Guid(c5d1c96e2f8fc4a2e86599a408606ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fa8afc988fd93e93ad930b934ea68c') in 0.032771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.725127 seconds.
-  path: Assets/MyGame/Prefabs/UI
-  artifactKey: Guid(3717dfb1bc8604c1a955ce749260b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/UI using Guid(3717dfb1bc8604c1a955ce749260b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7559165c317532b6777fcaf8f071fa4') in 0.006941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.812467 seconds.
+  Time since last request: 0.000074 seconds.
   path: Assets/MyGame/Prefabs/Enemy.prefab
   artifactKey: Guid(46cde0ffce0d740a98a2ade7c3e88528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Enemy.prefab using Guid(46cde0ffce0d740a98a2ade7c3e88528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d95749a4cf47880e822c747a185d32b') in 0.012067 seconds 
+Start importing Assets/MyGame/Prefabs/Enemy.prefab using Guid(46cde0ffce0d740a98a2ade7c3e88528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0492cce67b1b7770858c98bae4bf0b38') in 0.049867 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 233.349828 seconds.
-  path: Assets/MyGame/Animations
-  artifactKey: Guid(2ed7e64b555e34254aa734d615fce2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Animations using Guid(2ed7e64b555e34254aa734d615fce2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f91829d046d3038d111916806970d9') in 0.006757 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/MyGame/Prefabs/Player/GameMachine.prefab
+  artifactKey: Guid(298095e5e8b644dbcbe31e09c97f8b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Player/GameMachine.prefab using Guid(298095e5e8b644dbcbe31e09c97f8b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f469c0e203c9c796a3dc4bb0a8e61443') in 0.021484 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.443488 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/FirstRoom.prefab
-  artifactKey: Guid(3a3bf8bb0edead041a179938bf9cc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/FirstRoom.prefab using Guid(3a3bf8bb0edead041a179938bf9cc190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ec9bab49d2149ab3d52c2d89aa9c31') in 0.037936 seconds 
+  Time since last request: 4.173152 seconds.
+  path: Assets/MyGame/Prefabs/Player/MainHero.prefab
+  artifactKey: Guid(931b1751a1ad84f32870f48891fc315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Player/MainHero.prefab using Guid(931b1751a1ad84f32870f48891fc315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e419faae9f3e34d3c5890128ea1afc') in 0.004586 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001726 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x289747000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4394.
+Memory consumption went from 275.0 MB to 275.0 MB.
+Total: 2.507542 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.054125 ms MarkObjects: 2.285667 ms  DeleteObjects: 0.022958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001690 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x177d87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (21.9 KB). Loaded Objects now: 4396.
+Memory consumption went from 275.4 MB to 275.3 MB.
+Total: 2.689042 ms (FindLiveObjects: 0.161125 ms CreateObjectMapping: 0.051542 ms MarkObjects: 2.455666 ms  DeleteObjects: 0.019292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003259 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x177d87000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 104.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:530 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:1008 
+
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5318 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (5.9 MB). Loaded Objects now: 5729.
+Memory consumption went from 340.8 MB to 334.9 MB.
+Total: 6.467917 ms (FindLiveObjects: 0.254459 ms CreateObjectMapping: 0.085833 ms MarkObjects: 4.608542 ms  DeleteObjects: 1.518083 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:530 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:1008 
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002239 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16da03000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:530 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:1008 
+
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5317 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (5.9 MB). Loaded Objects now: 5731.
+Memory consumption went from 341.7 MB to 335.8 MB.
+Total: 4.286541 ms (FindLiveObjects: 0.221459 ms CreateObjectMapping: 0.069041 ms MarkObjects: 2.381833 ms  DeleteObjects: 1.613709 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:530 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:1008 
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 864.274746 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/SecondRoom.prefab
-  artifactKey: Guid(ccb0b8614e3af9b43bdfb21b073d7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/SecondRoom.prefab using Guid(ccb0b8614e3af9b43bdfb21b073d7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c416ae1ab0bf598ce20a892346dd34') in 0.028914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 771.423359 seconds.
-  path: Assets/MyGame/Materials
-  artifactKey: Guid(0a93d5f8aefda41b0bc0c1db50cdba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Materials using Guid(0a93d5f8aefda41b0bc0c1db50cdba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccb8683969aab3565e0bb2b33f6d53d') in 0.007982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.021175 seconds.
-  path: Assets/MyGame/Scripts
-  artifactKey: Guid(e69f4eec347462c478890db881db3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scripts using Guid(e69f4eec347462c478890db881db3e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154e6f4d8ff8bbc2604a672469a564d3') in 0.006893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 644.695975 seconds.
-  path: Assets/MyGame/Prefabs/Rooms/ThirthRoom.prefab
-  artifactKey: Guid(c2fe9a54c41588349b4f6cf0fb886b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/ThirthRoom.prefab using Guid(c2fe9a54c41588349b4f6cf0fb886b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a47f6c6009b063f8d00f94b49b558fa') in 0.046842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 301.973828 seconds.
+  Time since last request: 276.051495 seconds.
   path: Assets/MyGame/Prefabs/Rooms/ChotiryRoom.prefab
   artifactKey: Guid(ccd875a99b0f1dd439161b9c6b8ddf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/Rooms/ChotiryRoom.prefab using Guid(ccd875a99b0f1dd439161b9c6b8ddf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd426d9c1e210737f6647182d71d3c6b7') in 0.027474 seconds 
+Start importing Assets/MyGame/Prefabs/Rooms/ChotiryRoom.prefab using Guid(ccd875a99b0f1dd439161b9c6b8ddf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:10 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline() (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:18)
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:129)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:100)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview() (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:877)
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:890)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs Line: 9)
+
+ -> (artifact id: '94c29db820459850d37a1b360bae01aa') in 0.147972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/MyGame/Prefabs/Rooms/Room1.prefab
+  artifactKey: Guid(0815a5b377d8c40528f6873bf238981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Rooms/Room1.prefab using Guid(0815a5b377d8c40528f6873bf238981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:10 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline() (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:18)
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:129)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:100)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview() (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:877)
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:890)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs Line: 9)
+
+ -> (artifact id: 'd2306180b952496a54235bf5a7ae1b21') in 0.022539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MyGame/Prefabs/Rooms/Room4.prefab
+  artifactKey: Guid(a554542e617364df0bea8e0c3c065447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Rooms/Room4.prefab using Guid(a554542e617364df0bea8e0c3c065447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:10 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline() (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:18)
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:129)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:100)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview() (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:877)
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:890)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs Line: 9)
+
+ -> (artifact id: '90de0413ae12e835cbdb4f3d867c96f2') in 0.014918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MyGame/Prefabs/Rooms/Room3.prefab
+  artifactKey: Guid(c5d1c96e2f8fc4a2e86599a408606ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Rooms/Room3.prefab using Guid(c5d1c96e2f8fc4a2e86599a408606ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:10 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline() (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:18)
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:129)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:100)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview() (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:877)
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:890)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs Line: 9)
+
+ -> (artifact id: '077d99568dd3ad8da519c485e947cefa') in 0.012582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MyGame/Prefabs/Rooms/SecondRoom.prefab
+  artifactKey: Guid(ccb0b8614e3af9b43bdfb21b073d7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Rooms/SecondRoom.prefab using Guid(ccb0b8614e3af9b43bdfb21b073d7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:10 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline() (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineAsset.cs:18)
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:129)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:100)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:504)
+UnityEditor.GameObjectInspector:DoRenderPreview() (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:877)
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:890)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs Line: 9)
+
+ -> (artifact id: '8083881897fbc7602ca065f9df83fda5') in 0.017940 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001798 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16da03000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (794ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (633ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:530 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:1008 
+
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5317 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 101 unused Assets / (5.9 MB). Loaded Objects now: 5735.
+Memory consumption went from 342.7 MB to 336.8 MB.
+Total: 4.217959 ms (FindLiveObjects: 0.195791 ms CreateObjectMapping: 0.074167 ms MarkObjects: 2.456667 ms  DeleteObjects: 1.490750 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:372 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:530 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in /Users/a123/Desktop/Unity/Projects/spcSnake/Library/PackageCache/com.unity.render-pipelines.universal@12.1.1/Runtime/Data/UniversalRenderPipelineAsset.cs:1008 
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
