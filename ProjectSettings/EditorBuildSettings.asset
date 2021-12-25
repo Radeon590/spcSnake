@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MyGame/Scenes/WorkScenes/radiationScene.unity
-    guid: c7c585b514fc74a469857d9f171bab0b
+    path: Assets/MyGame/Scenes/MainScene.unity
+    guid: 44ec3478809144cefbc12ebf86203d90
   m_configObjects: {}

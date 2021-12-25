@@ -32,7 +32,7 @@ public class StateMachine : MonoBehaviour
                     onEnemyTurn.Invoke();
                     break;
                 case TurnStates.death:
-                    SceneManager.LoadScene("radiationScene");
+                    SceneManager.LoadScene("MainScene");
                     //onDeath.Invoke();
                     break;
             }

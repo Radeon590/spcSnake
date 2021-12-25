@@ -2223,6 +2223,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlobalLight
       objectReference: {fileID: 0}
+    - target: {fileID: 6361335887473613947, guid: 959c78b14c3a640508346c75219bc620, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771859498919919669, guid: 959c78b14c3a640508346c75219bc620, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771859498919919669, guid: 959c78b14c3a640508346c75219bc620, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771859498919919669, guid: 959c78b14c3a640508346c75219bc620, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771859498919919669, guid: 959c78b14c3a640508346c75219bc620, type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771859498919919669, guid: 959c78b14c3a640508346c75219bc620, type: 3}
+      propertyPath: m_BlendStyleIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771859498919919669, guid: 959c78b14c3a640508346c75219bc620, type: 3}
+      propertyPath: m_OverlapOperation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 959c78b14c3a640508346c75219bc620, type: 3}
 --- !u!1001 &4374437461139667297
