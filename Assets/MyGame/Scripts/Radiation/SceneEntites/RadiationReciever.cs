@@ -44,10 +44,16 @@ public class RadiationReciever : MonoBehaviour
     //
     private bool isRadiationSource = false;
     private float radiationSourceTime = 3;
+    //
+    private bool playerTag;
 
     private void Start()
     {
         sources = FindObjectsOfType<RadiationSource>();
+        if (gameObject.tag == "Player")
+        {
+            playerTag = true;
+        }
     }
 
     private void Update()
@@ -89,18 +95,21 @@ public class RadiationReciever : MonoBehaviour
             }
         }
         //rad bar value update
-        /*if (radiationBar.value < _radiationValue)
+        if (playerTag)
         {
-            radiationBar.value += Time.deltaTime * _radiationBarAdditionalMultiplier;
+            if (radiationBar.value < _radiationValue)
+            {
+                radiationBar.value += Time.deltaTime * _radiationBarAdditionalMultiplier;
+            }
+            else if(radiationBar.value > _radiationValue)
+            {
+                radiationBar.value -= Time.deltaTime * (5 * radHealingSpeed / 10);
+            }
+            else
+            {
+                radiationBar.value = _radiationValue;
+            }
         }
-        else if(radiationBar.value > _radiationValue)
-        {
-            radiationBar.value -= Time.deltaTime * (5 * radHealingSpeed / 10);
-        }
-        else
-        {
-            radiationBar.value = _radiationValue;
-        }*/
     }
 
     private void BecomeSource()
